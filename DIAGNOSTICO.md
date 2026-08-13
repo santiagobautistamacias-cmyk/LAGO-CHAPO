@@ -168,6 +168,29 @@ justamente el parámetro cuyo desconocimiento hizo fallar las obras de 1998–20
 Este es el núcleo del trabajo analítico. La erosión retrogradante deja **firmas
 geométricas específicas** que se pueden verificar o refutar con los 7 cortes.
 
+### Evidencia ya obtenida de los perfiles extraídos
+
+Los 7 perfiles ya se extrajeron de los DWG (ver `EXTRACCION_PERFILES.md`) y aportan
+tres elementos que sostienen el marco de hipótesis:
+
+**Orden longitudinal establecido.** Ordenando por la cota del thalweg resulta
+`1 → A → 2 → B → 3 → 4 → C` (de 225.69 a 243.62 m.s.n.m.). La progresión espacial
+de las coordenadas UTM de las trazas coincide con ese orden, lo que lo corrobora de
+forma independiente. Progresiva total del tramo: ≈ 1.591 m.
+
+**Los dos cortes de aguas abajo están bajo el nivel mínimo del lago.** Solo los
+cortes 1 (225.69) y A (227.21) tienen el lecho bajo la cota 230; el resto está
+sobre la 231. Son los dos más cercanos a la desembocadura y los únicos dentro de la
+zona de influencia del abatimiento, que es exactamente donde el informe sitúa la
+incisión. Ambos muestran un canal interior profundamente encajonado.
+
+**El relieve decrece monótonamente hacia aguas arriba** (14.4 m en A → 5.6 m en C).
+Secciones encajonadas abajo y someras arriba, compatible con un cauce que profundizó
+su tramo final.
+
+Esto es consistente con H1, pero **no la demuestra**: es geometría de un solo
+instante, no una diferencia entre fechas. Confirma dónde buscar, no cuánto cambió.
+
 ### H1 — Gradiente longitudinal de incisión
 
 **Predicción:** la incisión debe ser **máxima en el corte más cercano al lago** y
@@ -268,9 +291,10 @@ documentarlos es parte del trabajo, no una excusa.
 
 | Dato | Estado | Para qué se necesita |
 |---|---|---|
-| Geometría digital de los perfiles | En DWG, sin extraer | Todo el análisis cuantitativo |
-| Progresivas de los 7 cortes | No confirmadas | H1, H2 y volúmenes |
-| Campañas intermedias 2009–2018 | Solo se ven 2014 y 2018 en el repo | Resolución temporal, H2 |
+| Geometría digital de los perfiles | **Extraída** (7 cortes) | Todo el análisis cuantitativo |
+| Progresivas de los 7 cortes | **Medidas** desde las trazas UTM | H1, H2 y volúmenes |
+| **Levantamientos por año como superficies distintas** | **No existen en los DWG** | Variación de volumen. Bloqueo principal |
+| Campañas intermedias 2009–2018 | Solo 2014 y 2018, y con la misma geometría | Resolución temporal, H2 |
 | Registro diario de nivel del lago | Existe (citado en el informe) | Paso 4, correlación con la operación |
 | Granulometría (D50) | No disponible | Lane cuantitativo, acorazamiento |
 | Transporte de sedimentos (Qs) | Sin mediciones | Lane cuantitativo |

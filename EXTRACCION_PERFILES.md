@@ -1,9 +1,13 @@
-# Extracción de la geometría de los perfiles
+# Extracción de la geometría de los perfiles — RESUELTO
 
-Objetivo: convertir los `.dwg` de monitoreo en un CSV con columnas
-`anio, corte, x_m, z_msnm`. Es el único bloqueo para todo el análisis cuantitativo.
+Los 7 perfiles ya están extraídos. Este documento registra el método, para que el
+resultado sea reproducible y auditable.
 
-## Estado de los archivos
+Resultados: [`Perfiles_RioNegro_analisis.xlsx`](Perfiles_RioNegro_analisis.xlsx),
+[`perfiles_rio_negro.csv`](perfiles_rio_negro.csv),
+[`perfiles_rio_negro.png`](perfiles_rio_negro.png).
+
+## Formatos de los archivos
 
 | Archivo | Formato interno | Versión AutoCAD |
 |---|---|---|
@@ -11,157 +15,116 @@ Objetivo: convertir los `.dwg` de monitoreo en un CSV con columnas
 | `2018 11 Perfiles Monitoreo RNegro.dwg` | `AC1024` | 2010 |
 | `PerfilRioNegro.dwg` | `AC1032` | 2018 |
 
-**Lo que ya se intentó y no funcionó:** el PDF `2018 11 Perfiles Monitoreo
-RNegro.pdf` contiene los perfiles como gráficos vectoriales sin texto de
-coordenadas: la extracción de texto devuelve solo 174 caracteres (rótulos del
-plano de ubicación), ninguna cota. Y `.dwg` es un formato binario propietario que
-`ezdxf` no lee de forma nativa; requiere un convertidor externo (ODA File
-Converter o LibreDWG), que no está disponible en este entorno.
+## Lo que no funcionó
 
-**Conclusión: la extracción requiere una máquina con AutoCAD, o instalar un
-convertidor DWG→DXF localmente.** Los métodos siguientes están ordenados de
-menor a mayor esfuerzo.
+- **`ezdxf` directamente**: no lee DWG nativo, solo DXF.
+- **El PDF de perfiles**: los perfiles son gráficos vectoriales sin texto de
+  coordenadas. La extracción de texto devuelve 174 caracteres, todos rótulos del
+  plano de ubicación. Ninguna cota.
+- **ODA File Converter**: requiere descarga manual con registro.
+- **Paquetes de sistema**: no hay `libredwg` en los repositorios de Amazon Linux 2023.
 
----
+## Lo que funcionó: compilar LibreDWG
 
-## Opción A — ODA File Converter + Python (recomendada)
+```bash
+# 1. dependencias de compilación
+dnf install -y automake libtool texinfo pcre2-devel
 
-Convierte DWG a DXF, que sí se puede automatizar. No requiere licencia de
-AutoCAD.
+# 2. código fuente
+git clone --depth 1 https://github.com/LibreDWG/libredwg.git
+cd libredwg
 
-1. Descargar el [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (gratuito).
-2. Convertir los `.dwg` a DXF (versión de salida: ASCII DXF R2013 o posterior).
-3. Inspeccionar la estructura antes de extraer nada:
+# 3. el submódulo jsmn puede fallar tras un proxy de git; se baja directo.
+#    Solo se usa para la salida JSON, que aquí no hace falta.
+mkdir -p jsmn
+curl -sSL -o jsmn/jsmn.h https://raw.githubusercontent.com/zserge/jsmn/master/jsmn.h
 
-```python
-import ezdxf
+# 4. compilar (sin bindings para que sea más rápido)
+sh autogen.sh
+./configure --disable-bindings --disable-docs --enable-release
+make -j$(nproc)
 
-doc = ezdxf.readfile("2018_Perfiles.dxf")
-msp = doc.modelspace()
-
-# Qué capas existen y cuánta geometría hay en cada una
-from collections import Counter
-print(Counter((e.dxf.layer, e.dxftype()) for e in msp))
-
-# Los rótulos de los cortes suelen ser TEXT/MTEXT
-for e in msp.query("TEXT MTEXT"):
-    print(repr(e.dxf.text), e.dxf.insert)
+# 5. convertir
+./programs/dwg2dxf -o salida.dxf "entrada.dwg"
 ```
 
-4. Extraer las polilíneas de la capa de perfiles:
+Los tres DWG se convirtieron sin errores (solo avisos benignos de
+`eed/reactors/xdic`). Versión usada: `dwg2dxf 0.14.8580`.
 
-```python
-import csv
+## Estructura encontrada en los DXF
 
-CAPA = "PERFILES"       # ajustar con lo que muestre el paso 3
-ANIO = 2018
-ESCALA_V = 1.0          # ver "Escalas y exageración vertical" más abajo
+El *modelspace* contiene dos zonas distintas:
 
-with open(f"perfiles_{ANIO}.csv", "w", newline="") as f:
-    w = csv.writer(f)
-    w.writerow(["anio", "corte", "x_m", "z_msnm"])
-    for i, pl in enumerate(msp.query(f'LWPOLYLINE[layer=="{CAPA}"]'), 1):
-        for x, y, *_ in pl.get_points():
-            w.writerow([ANIO, f"P{i}", round(x, 3), round(y * ESCALA_V, 3)])
+| Zona | Ventana | Contenido |
+|---|---|---|
+| Planta | X 708.9k–710.6k, Y 5411.3k–5412.7k | Topografía en UTM 18S, curvas de nivel con cotas reales, trazas de los cortes |
+| Gráficos de perfil | X 715.5k–717.6k, Y 5407.0k–5407.7k | Las 7 secciones dibujadas como diagramas 2D |
+
+Además hay copias desplazadas del plano de planta (a X ≈ 715.6k y ≈ 722.3k, con
+Z = −249), que hay que descartar para no duplicar geometría.
+
+Capas relevantes:
+
+| Capa | Contenido |
+|---|---|
+| `0` | Las 7 líneas de terreno de los perfiles, y los polígonos de erosión |
+| `PGRIDT` | Etiquetas del eje de cotas → sirven para calibrar la escala vertical |
+| `PGRID`, `PBASE`, `PEGCT` | Marco, ejes y etiquetas de cota del gráfico |
+| `corte` | Trazas de los cortes en planta (UTM) y sus rótulos de extremo |
+| `CONT-MJR*`, `CONT-MNR*` | Curvas de nivel con cota real en el atributo `elevation` |
+| `puntos` | 9.159 rótulos de puntos topográficos con cota |
+| `EROSION-2018` | Anotaciones de erosión, solo en el plano de 2018 |
+
+Los 7 cortes se rotulan **1, 2, 3, 4, A, B, C**. Hay una traza `D` en planta que
+no tiene gráfico de perfil asociado.
+
+## Escalas: exageración vertical ×10
+
+Este es el punto que más fácilmente arruina el cálculo de áreas y volúmenes.
+
+- **Vertical: 10 unidades de dibujo = 1 m.** Calibrado por mínimos cuadrados en
+  cada gráfico con las etiquetas de la capa `PGRIDT`. Resultado: 9.95 a 10.05 u/m
+  según el corte, con residuo máximo de 0.04 m. Ver la hoja `Calibracion`.
+- **Horizontal: 1 unidad = 1 m.** Verificado de forma independiente: el gráfico
+  del corte 1 mide 625.9 unidades de ancho, y la traza de ese corte en planta
+  mide 626 m en coordenadas UTM.
+
+**Consecuencia:** un área medida en unidades de dibujo vale **10× el área real en
+m²**, porque solo el eje vertical está exagerado. Todas las áreas del Excel ya
+están divididas por 10.
+
+## Hallazgo: no hay dos levantamientos
+
+Las 7 líneas de terreno son **idénticas en ambos DWG**: mismo número de vértices
+y mismas coordenadas. Los planos comparten una única geometría de referencia y lo
+que cambia entre ellos son los polígonos superpuestos.
+
+Esto coincide con el planteamiento del encargo («los perfiles son los mismos pero
+cambia la erosión presentada en cada período») y tiene una consecuencia directa:
+**no se puede calcular variación de volumen por diferencia de levantamientos**,
+porque no hay dos superficies topográficas distintas.
+
+Se descartó también usar las curvas de nivel como épocas separadas: las capas
+`CONT-*1/2/3/5` se solapan entre 88% y 94%, es decir son duplicados de una misma
+superficie.
+
+## Reproducir
+
+```bash
+pip install ezdxf openpyxl numpy matplotlib
+python3 extraer_perfiles_dwg.py    # genera el Excel
+python3 figura_perfiles.py         # genera la figura
 ```
 
-El `f"P{i}"` es provisional: hay que **asociar cada polilínea con su rótulo real**
-comparando su posición con la de los textos del paso 3. No dar por buena la
-numeración automática.
+Ambos scripts esperan los DXF convertidos en el directorio de trabajo.
 
----
+## Lo que aún falta pedir
 
-## Opción B — AutoCAD
+Para cerrar el análisis de variación de volumen se necesita **una** de estas dos:
 
-Si hay acceso a AutoCAD, es la vía más directa y confiable.
+1. Los perfiles crudos de cada campaña (2009, 2011, 2014, 2018) como series de
+   puntos independientes: `año, corte, distancia, cota`.
+2. Las superficies topográficas de cada año como capas o archivos separados.
 
-- **Perfil por perfil:** seleccionar la polilínea → comando `LIST` → copiar las
-  coordenadas de los vértices.
-- **En lote:** comando `DATAEXTRACTION`, seleccionar las polilíneas de perfiles,
-  extraer la propiedad de vértices y exportar a CSV.
-
-Ventaja frente a la opción A: se ve el dibujo, lo que permite confirmar
-visualmente qué polilínea es cada corte y detectar bloques o referencias externas
-que un lector automático podría pasar por alto.
-
----
-
-## Opción C — QGIS (libre)
-
-Admite DWG mediante GDAL, aunque con soporte irregular según la versión.
-
-1. `Capa → Añadir capa → Añadir capa vectorial`, seleccionar el `.dwg`.
-2. Elegir la capa que contiene las polilíneas de perfiles.
-3. `Exportar → Guardar objetos como…` → CSV, con `GEOMETRY = AS_XY`.
-
----
-
-## Opción D — Digitalización manual desde el PDF
-
-Último recurso, solo si ninguna de las anteriores es viable. Con
-[WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/): calibrar los ejes con
-dos cotas conocidas del plano y digitalizar cada perfil punto por punto.
-
-Es laborioso y añade error de digitalización, pero para 7 cortes × 2 campañas es
-factible. Documentar el error estimado si se usa esta vía.
-
----
-
-## Verificaciones antes de dar el CSV por bueno
-
-Tres condiciones que, si no se cumplen, invalidan la comparación entre años:
-
-1. **Origen y sentido de la abscisa idénticos entre campañas.** Si en 2009 se
-   midió de margen izquierda a derecha y en 2018 al revés, hay que invertir uno
-   de los dos. Señal de alarma: los perfiles de dos años parecen espejos.
-2. **Mismo datum vertical.** Cotas en m.s.n.m. y no locales. Contrastar contra el
-   rango de niveles del lago del informe (230–245 m.s.n.m.): si las cotas del
-   lecho salen fuera de un rango plausible respecto a eso, revisar el datum.
-3. **Correspondencia física de cada corte entre años.** Que el `P3` de 2009 sea
-   la misma sección que el `P3` de 2018.
-
-### Escalas y exageración vertical
-
-Los planos de perfiles suelen dibujarse con **exageración vertical** (típicamente
-H 1:200 / V 1:100, es decir factor 2). Si no se corrige, **las áreas y volúmenes
-saldrán multiplicados por ese factor.**
-
-Cómo detectarlo: buscar el rótulo de escalas en el plano, y verificar contra una
-cota conocida. Si un punto rotulado como 235.00 m.s.n.m. aparece en `y = 470`, la
-escala vertical es 2 y hay que dividir por ella (`ESCALA_V = 0.5` en el script).
-
-### Comprobación rápida del CSV
-
-```python
-import pandas as pd
-
-df = pd.read_csv("perfiles_rio_negro.csv")
-print(df.groupby(["corte", "anio"]).agg(
-    n=("x_m", "size"),
-    x_ini=("x_m", "min"), x_fin=("x_m", "max"),
-    z_min=("z_msnm", "min"), z_max=("z_msnm", "max"),
-))
-```
-
-Revisar que: el número de puntos por perfil sea razonable (>10); los rangos de
-`x_m` de un mismo corte se traslapen entre años; y las cotas caigan en un rango
-plausible para el sistema.
-
----
-
-## Datos complementarios
-
-Además de los perfiles, hacen falta dos archivos.
-
-**`distancias.csv`** — distancia longitudinal entre cortes consecutivos, medida a
-lo largo del eje del cauce (no en línea recta):
-
-```csv
-corte_a,corte_b,distancia_m
-P1,P2,180
-P2,P3,210
-```
-
-**Progresivas de los cortes**, ordenados de aguas arriba hacia la desembocadura.
-Este orden es imprescindible para contrastar H1 y H2 del diagnóstico: sin él no
-se puede evaluar si la incisión aumenta hacia el lago.
+Con eso, el cálculo de áreas y volúmenes ya está implementado en
+[`analisis_perfiles.py`](analisis_perfiles.py) y se ejecuta directo sobre el CSV.
