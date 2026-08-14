@@ -3,13 +3,69 @@
 Análisis de los perfiles de monitoreo del Río Negro (7 cortes), en el contexto del
 PRDA ordenado por la Sentencia Rol N° D-4-2022 del Tercer Tribunal Ambiental.
 
-## Entregable principal
+## Entregables
 
-**[`Perfiles_RioNegro_analisis.xlsx`](Perfiles_RioNegro_analisis.xlsx)** — libro con
-los 7 perfiles extraídos de los DWG, un gráfico por corte, resumen morfométrico,
-progresivas UTM y plantilla de volúmenes con fórmulas.
+| Archivo | Contenido |
+|---|---|
+| **[`Comparacion_periodos_RioNegro.xlsx`](Comparacion_periodos_RioNegro.xlsx)** | La comparación entre años: 11 períodos con volumen, tasa y acumulado; dónde erosionó cada uno; verificación del método; plantilla de correlación con el nivel del lago |
+| **[`Perfiles_RioNegro_analisis.xlsx`](Perfiles_RioNegro_analisis.xlsx)** | Los 7 perfiles extraídos, gráfico por corte, morfometría y progresivas UTM |
+
+![Comparación entre períodos](comparacion_periodos.png)
+
+![Dónde ocurrió la erosión](migracion_frente_erosion.png)
+
+![Retroceso de la ladera](retroceso_ladera_corte1.png)
 
 ![Perfiles](perfiles_rio_negro.png)
+
+## Los datos clave estaban en el paperspace
+
+La leyenda del DWG de 2018 está en el *paperspace* (`Layout1`), no en el modelo, y
+declara para cada uno de los **11 períodos** entre marzo 2009 y noviembre 2018: el
+color con que se dibujó, la superficie afectada en hectáreas y **el volumen
+erosionado en m³**. El perfil de referencia es la *sección original del río según
+topografía de marzo 2009*.
+
+El rótulo `Esc Vert 1/300, Hrz 1/3000` confirma la exageración vertical ×10 que se
+había deducido midiendo el dibujo.
+
+| # | Período | Meses | Área (ha) | Volumen (m³) | Tasa (m³/año) |
+|---|---|---|---|---|---|
+| 1 | Mar 09 – Sep 09 | 6.0 | 3.30 | 378 830 | **752 060** |
+| 2 | Sep 09 – Mar 10 | 5.9 | 0.44 | 42 850 | 86 477 |
+| 3 | Mar 10 – Sep 10 | 6.0 | 0.78 | 105 450 | 209 341 |
+| 4 | Sep 10 – Abr 11 | 7.0 | 0.51 | 55 490 | 95 610 |
+| 5 | Abr 11 – Mar 12 | 11.0 | 0.20 | 18 920 | 20 630 |
+| 6 | Mar 12 – Jun 13 | 15.0 | 0.15 | 11 843 | 9 466 |
+| 7 | Jun 13 – Ene 14 | 7.0 | 0.13 | 11 121 | 18 983 |
+| 8 | Ene 14 – Ene 15 | 12.0 | 0.24 | 16 786 | 16 799 |
+| 9 | Ene 15 – Mar 16 | 14.0 | 0.13 | 28 780 | 24 736 |
+| 10 | Mar 16 – Jun 17 | 15.0 | 0.19 | 16 831 | 13 453 |
+| 11 | Jun 17 – Nov 18 | 17.0 | 0.34 | 26 188 | **18 467** |
+| | **TOTAL** | 116 | **6.41** | **713 089** | 73 748 |
+
+Los períodos duran entre 5.9 y 17 meses, así que la comparación válida es la
+**tasa**, no el volumen crudo.
+
+## Es erosión lateral, no incisión del fondo
+
+Dos evidencias: las bandas de cada período están dibujadas *una al lado de otra*
+avanzando hacia los costados, y el volumen dividido por la superficie da 7–13 m,
+que coincide con la altura de las laderas de los perfiles. La ladera retrocede en
+toda su altura.
+
+En el corte 1 el frente retrocedió desde la estación 239 (2009) hasta la 58 (2013),
+alejándose del eje del cauce, que está en la estación 262.
+
+## La tasa se desploma
+
+De **752 060 m³/año** en el primer período a **18 467 m³/año** en el último: un
+factor de 41. Aun descartando el primer período, cae de 86 477 a 18 467.
+
+Es la firma de un sistema relajándose hacia un nuevo equilibrio: el descenso del
+nivel base disparó la erosión, y al erosionar el río fue reduciendo su propia
+pendiente, de modo que el proceso se frena solo. Concuerda con la observación del
+informe de INGETEC de que el proceso «no parece estar activo o en crecimiento».
 
 ## Documentos
 
@@ -53,17 +109,31 @@ descrito en el informe de INGETEC.
 El relieve de la sección decrece monótonamente hacia aguas arriba (14.4 → 5.6 m):
 secciones encajonadas abajo, someras arriba.
 
-## Limitación
+## Qué queda abierto
 
-**No se puede calcular la variación de volumen del cauce con estos DWG.** Las 7
-líneas de terreno son idénticas en los planos de 2014 y 2018: hay una sola
-geometría de referencia, no dos levantamientos. Los polígonos de erosión dibujados
-tampoco sirven como medición por período (son iguales en 4 de los 7 cortes, lo que
-indica ediciones del dibujo). Detalle en la hoja `Hallazgos` del Excel.
+**El método de cálculo del volumen.** La evidencia apunta a superficie en planta ×
+altura de talud, no a áreas medias ni prismoidal entre secciones: el plano informa
+hectáreas (medida en planta) y el cociente volumen/superficie da alturas de talud
+coherentes. Al recalcular por áreas medias solo coincide el período 2 (−4.4%). Hay
+que **pedir la memoria de cálculo**; el método cambia el resultado y debe declararse.
 
-Para cerrar el análisis de volumen hace falta pedir los perfiles crudos de cada
-campaña, o las superficies topográficas por año. El cálculo ya está implementado
-en `analisis_perfiles.py` y corre directo sobre un CSV con esa estructura.
+**El primer período.** Declara 378 830 m³ en 6 meses, el 53% del total y 3.5 veces
+el segundo más alto. Puede ser real, porque fue el primer levantamiento tras años de
+operación sin monitoreo y probablemente arrastra erosión anterior, pero conviene
+verificarlo y reportar los resultados con y sin él.
+
+**La hipótesis del frente migrando.** Los cortes 2, 3 y B solo erosionan en
+2009–2010; el corte 1 lo hace hasta 2013 y se apaga; el corte 4, situado 1 192 m
+aguas arriba, recién se activa en 2012 y culmina en 2015–2016; el corte C nunca. El
+patrón es **compatible** con erosión retrogradante, pero no la demuestra: el corte A
+sigue activo casi todo el período y la matriz tiene muchos vacíos. El centroide de
+la erosión por período resulta errático, no monótono, así que **no se puede estimar
+una velocidad de avance fiable** con 7 secciones.
+
+**La correlación con el nivel del lago.** Es el paso pendiente de mayor valor. La
+hoja `Nivel_lago` ya tiene las fórmulas: se pegan los niveles diarios y cuenta, por
+período, los días bajo las cotas 231 y 230, para graficarlos contra la tasa de
+erosión.
 
 ## Uso
 
