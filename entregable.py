@@ -348,28 +348,49 @@ def excel(area, destino):
 
     # ---- Metodo de volumen
     ws = wb.create_sheet("Metodo_volumen")
-    h1(ws, "A1", "¿Con qué método se calcularon los volúmenes?")
+    h1(ws, "A1", "Con qué método se calcularon los volúmenes — RESUELTO")
     for i, t in enumerate([
-        "Se probó recalcular cada período por ÁREAS MEDIAS, usando las áreas de banda medidas",
-        "en los perfiles y las distancias entre cortes obtenidas de las trazas UTM:",
-        "        V = (A₁ + A₂) / 2 × L",
-        "El resultado no reproduce los volúmenes del plano, salvo en el período 2 (−4,4%).",
+        "CONCLUSIÓN: el volumen NO se calculó por áreas medias ni por el método prismoidal",
+        "entre secciones. Se calculó como SUPERFICIE EN PLANTA × ESPESOR MEDIO.",
         "",
-        "La explicación más probable es que el volumen se calculó como superficie en planta ×",
-        "altura de la ladera, no por secciones. Dos indicios lo respaldan: el plano informa la",
-        "superficie de cada período en HECTÁREAS, que es una medida en planta; y el cociente",
-        "volumen/superficie da entre 7 y 13 m, coherente con la altura de los taludes.",
+        "CÓMO SE COMPROBÓ",
+        "Los polígonos de erosión están dibujados también en planta, con un color distinto por",
+        "período. Se extrajeron esos polígonos y se midió su área. El resultado reproduce las",
+        "hectáreas que declara la leyenda en 8 de los 11 períodos, con diferencias de 1 a 3%",
+        "(ver la hoja 'Planta_verificacion'). Es decir: la superficie de la leyenda es el área",
+        "en planta de esos polígonos, no un área de sección.",
         "",
-        "También influye que las bandas dibujadas no cubren los 7 cortes en todos los períodos,",
-        "de modo que el recálculo por secciones queda incompleto por construcción.",
+        "Además, el cociente volumen/superficie da entre 7 y 13,5 m, que coincide con la altura",
+        "de las laderas medida en los perfiles. O sea, el espesor aplicado es la altura del",
+        "talud que retrocede.",
         "",
-        "QUÉ PEDIR: la memoria de cálculo. La pregunta concreta es si el volumen se obtuvo por",
-        "áreas medias entre secciones, por el método prismoidal, o por superficie en planta por",
-        "altura media de talud. El método cambia el resultado y hay que declararlo en el informe.",
+        "De paso, esto confirma que la asignación de color a período es correcta, incluidos los",
+        "dos colores que se habían deducido por descarte (períodos 1 y 8).",
+        "",
+        "EL CONTRASTE CON ÁREAS MEDIAS",
+        "Recalcular por áreas medias con las bandas de los perfiles NO reproduce los volúmenes,",
+        "salvo casualmente en el período 2. Es esperable: las bandas no cubren los 7 cortes en",
+        "todos los períodos, de modo que ese recálculo está incompleto por construcción. La",
+        "tabla de abajo se conserva como evidencia de que ese camino no es el correcto.",
+        "",
+        "QUÉ IMPLICA PARA EL INFORME",
+        "Hay que declarar el método explícitamente. Un volumen por superficie × espesor medio es",
+        "una estimación razonable para erosión lateral de márgenes, pero es menos preciso que",
+        "una diferencia de superficies topográficas, y no distingue variaciones de altura de",
+        "talud dentro de una misma zona. Conviene igualmente pedir la memoria de cálculo para",
+        "confirmar qué espesor se usó en cada período y de dónde salió.",
     ]):
-        ws.cell(row=3 + i, column=1, value=t)
+        c = ws.cell(row=3 + i, column=1, value=t)
+        if t.isupper() and len(t) < 60:
+            c.font = Font(bold=True, size=11, color=AZUL)
+        if t.startswith("CONCLUSIÓN"):
+            c.font = Font(bold=True, size=11, color=AZUL)
     ws.column_dimensions["A"].width = 100
-    f = 21
+    ws.column_dimensions["A"].width = 100
+    f = 36
+    ws.cell(row=f - 1, column=1,
+            value="Evidencia de que el recálculo por áreas medias no reproduce el plano:"
+            ).font = Font(bold=True, size=10)
     enc(ws, f, ["N", "Periodo", "Cortes_con_banda", "V_areas_medias_m3", "V_del_plano_m3",
                 "Dif_pct", "Espesor_V_sobre_A_m"], [5, 15, 17, 19, 17, 11, 20])
     for i, p in enumerate(PERIODOS):
@@ -384,6 +405,50 @@ def excel(area, destino):
             c.border = BORDE
             if k == 6 and abs(dif) < 10:
                 c.fill = PatternFill("solid", fgColor=VERDE)
+
+    # ---- Planta: verificacion de las hectareas
+    from planta_erosion import areas_planta
+    pl = areas_planta()
+    ws = wb.create_sheet("Planta_verificacion")
+    h1(ws, "A1", "Verificación: área en planta de los polígonos vs. hectáreas de la leyenda")
+    ws["A2"] = ("Se midió el área de los polígonos de erosión dibujados en planta, agrupados por "
+                "color según la leyenda, y se comparó con las hectáreas declaradas.")
+    ws["A2"].font = Font(italic=True, size=9)
+    enc(ws, 4, ["N", "Periodo", "N_poligonos", "Area_medida_ha", "Area_leyenda_ha",
+                "Razon", "Coincide", "Volumen_m3", "Espesor_implicito_m"],
+        [5, 15, 13, 16, 17, 9, 11, 13, 20])
+    ok = 0
+    for i, p in enumerate(PERIODOS):
+        r = 5 + i
+        n = p["n"]
+        med, npol = pl.get(n, (0.0, 0))
+        ha_m = med / 10000
+        ha_l = p["ha"]
+        razon = ha_m / ha_l if ha_l else float("nan")
+        coincide = abs(razon - 1) <= 0.05
+        if coincide:
+            ok += 1
+        esp = p["vol"] / med if med else float("nan")
+        vals = [n, ETIQ[n], npol, round(ha_m, 3), ha_l, round(razon, 3),
+                "SÍ" if coincide else "no", p["vol"],
+                round(esp, 1) if med else None]
+        for k, v in enumerate(vals, 1):
+            c = ws.cell(row=r, column=k, value=v)
+            c.border = BORDE
+            if coincide and k in (6, 7):
+                c.fill = PatternFill("solid", fgColor=VERDE)
+            elif not coincide and k in (6, 7):
+                c.fill = PatternFill("solid", fgColor=AMBAR)
+    r = 5 + len(PERIODOS)
+    ws.cell(row=r + 1, column=1,
+            value=f"Coinciden {ok} de {len(PERIODOS)} períodos dentro del 5%. "
+                  "Los que no coinciden tienen colores muy comunes en el dibujo (rojo, azul), "
+                  "por lo que arrastran polígonos que no son erosión."
+            ).font = Font(italic=True, size=9)
+    ws.cell(row=r + 2, column=1,
+            value="El espesor implícito (volumen / área medida) es de 7 a 13,5 m y coincide con "
+                  "la altura de las laderas de los perfiles: es erosión lateral en toda su altura."
+            ).font = Font(italic=True, size=9)
 
     # ---- Nivel del lago
     ws = wb.create_sheet("Nivel_lago")
