@@ -1,0 +1,1252 @@
+0895901 -IRF-LBJ-GRAL-0001.DOCS
+INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Bogotá D.C.
+2026
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+CONTROL DE CAMBIOS
+ÍNDICE DE MODIFICACIONES
+Sección
+Revisión Fecha Observaciones
+modificada
+A 24-03-2026 - Versión inicial
+B 24-04-2026 - Atención comentarios Colbún
+REVISIÓN Y APROBACIÓN
+Preparó: Preparó: Preparó:
+DIVISIONES
+TÉCNICAS
+O. Vargas A. Amaya
+E. León Especialista Especialista
+Especialista Geotecnico Recursos Hídricos Ambiental
+24-04-2026 24-04-2026 24-04-2026
+Aprobó:
+PROYECTO
+C. Marulanda
+Director de Proyecto
+24-04-2026
+Rev. B 24-04-2026 Página 2 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+TABLA DE CONTENIDO
+1. INTRODUCCIÓN 5
+2. REVISIÓN DE INFORMACIÓN ANTECEDENTE 6
+2.1 Marco Geológico y Geomorfológico Regional 6
+2.2 Operación histórica de la Central Canutillar y alteración del régimen de nivel 7
+2.3 Marco Regulatorio y Laudo del Tercer Tribunal Ambiental (3TA) 16
+3. HALLAZGOS REALIZADOS DURANTE LA VISITA 19
+3.1 Contexto General del Sistema Lago-Afluentes 19
+3.2 Mecanismos de erosión retrogradante en cauces afluentes 20
+3.3 Inestabilidad de laderas y banda de impactos 30
+3.4 Efectos de la erupción del Volcán Calbuco (2015) y factores externos 34
+3.5 Estado de la vegetación ribereña y paisaje 35
+3.6 Aspectos operacionales y monitoreo 38
+4. CONCLUSIONES 38
+4.1 Sobre el mecanismo generador del daño 38
+4.2 Sobre el estado actual del sistema 39
+4.3 Sobre los datos hidrológicos 39
+4.4 Sobre la Funcionalidad de los Ecosistemas 40
+4.5 Sobre el Laudo del Tribunal Tercero 40
+5. ESTUDIOS TÉCNICOS Y PASOS A SEGUIR 41
+5.1 Corto Plazo – Acciones Inmediatas 49
+5.2 Mediano Plazo – Estudios Técnicos Fase 2 49
+5.3 Largo Plazo – Intervención Física y Restauración 49
+6. REFERENCIAS BIBLIOGRÁFICAS 50
+Rev. B 24-04-2026 Página 3 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+LISTA DE FIGURAS
+Figura 1. Geología local Escala 1:50.000
+Figura 2. Secuencia de imágenes aéreas que evidencian los impactos del nivel mínimo del lago.
+Figura 3. Variación del nivel del lago entre los años 1991 y 1995.
+Figura 4. Variación del nivel del lago entre los años 1996 y 2000
+Figura 5. Variación del nivel del lago entre los años 2004 y 2005
+Figura 6. Variación del nivel del lago entre los años 2009 y 2012
+Figura 7. Variación del nivel entre los años 2016 y 2018
+Figura 8. Variación del nivel entre los años 2020 y 2025
+Figura 9. Esquemas que muestran aspectos básicos de la morfología fluvial
+Figura 10. Esquema de la producción e interacción de los sedimentos con la forma del río.
+Figura 11. Balance de Lane
+Figura 12. Trabajos proyectados en el río Negro entre 1998 y 2004
+Figura 13. Obras implementadas entre 1998 y 2004
+Figura 14. Fotografías de la visita (marzo, 2026)
+Figura 15. Fotografías de la visita al río Pitote (marzo, 2026)
+Figura 16. Fotografías de la visita al río Cululí (marzo, 2026)
+Figura 17. Fotografías de la visita al río Cedro (marzo, 2026)
+Figura 18. Fotografías de la visita al río León (marzo, 2026)
+Figura 19. Río Playa Blanca - Características de la zona de entrega al lago
+Figura 20. Materiales observados a lo largo del perímetro del lago
+Figura 21. Observaciones sobre los afluentes principales. (a, b) Río Negro, (c) Río Pitote, (d) Río Cululí, (e)
+Río Cedro, (f) Río León, (g) Río Playa Blanca
+Figura 22. Efectos de la erupción de abril de 2015 - Imágenes satelitales Landsat 8 - Bandar 5-4-3
+Figura 23. Vegetación Ribereña, fotografías de la visita, marzo, 2026
+Rev. B 24-04-2026 Página 4 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+1. INTRODUCCIÓN
+El presente informe recoge los resultados y hallazgos técnicos derivados de la visita de inspección realizada
+al Lago Chapo y a las riberas de sus principales afluentes; ríos Negro, Pitote y Playa Blanca, Cululí y León,
+llevada a cabo el 11 de marzo de 2026. La visita fue ejecutada por un equipo multidisciplinario de INGETEC
+conformado por especialistas en geotecnia, hidráulica-morfología fluvial e ingeniería ambiental, en el marco
+del contrato PP-176-2026 suscrito con COLBÚN S.A.
+El contexto que motiva este trabajo es la Sentencia Causa Rol N° D-4-2022, emitida por el Tercer Tribunal
+Ambiental (3TA) de Chile, que establece una relación causal entre la operación histórica de la Central
+Canutillar y la aceleración de procesos geomorfológicos en las riberas del lago y en las desembocaduras de
+los cauces afluentes en detrimento de la función de los ecosistemas ribereños. El fallo ordena a COLBÚN
+implementar un Plan de Reparación de Daño Ambiental (PRDA) estructurado sobre cuatro pilares: (i)
+operación provisional con cota mínima de 231 m.s.n.m., (ii) control de procesos erosivos mediante técnicas de
+bioingeniería y soluciones basadas en la naturaleza (SbN) y contribución a la recuperación, (iii) actualización
+del marco regulatorio ante el SEIA integrando las nuevas variables operacionales, y (iv) socialización con la
+comunidad.
+La visita técnica constituye el inicio estructurado de la Fase 2 del apoyo técnico de INGETEC, cuyo propósito
+será definir con precisión las causas del daño a elementos de los ecosistemas ribereños (vegetación, suelo y
+paisaje) y entender los mecanismos geomorfológicos y geotécnicos dominantes, identificar la relación con las
+funciones ecosistémicas de las orillas y riberas, identificar los vacíos críticos de información, elaborar los
+estudios de línea base, seguido de los estudios y análisis técnicos que permitan definir la cota mínima de
+estabilidad, para desarrollar unos diseños a nivel conceptual de las soluciones propuestas y posteriormente a
+nivel de ingeniería básica.
+Los objetivos específicos de la visita fueron:
+1. Revisar con el equipo de COLBÚN los antecedentes técnicos, operativos y regulatorios del proyecto.
+2. Realizar reconocimiento directo de las riberas del lago y de los cauces afluentes, identificando
+sectores críticos de erosión retrogradante, socavación lateral e inestabilidad de laderas.
+3. Verificar en campo las hipótesis planteadas sobre la relación entre el nivel operativo del lago y la
+respuesta morfológica de los cauces tributarios.
+4. Observar la relación entre las afectaciones a riberas (lago y cauces) y las funciones de los
+ecosistemas afectados (específicamente los relacionados con vegetación y paisaje).
+5. Establecer lineamientos técnicos estratégicos para los estudios y medidas de intervención que
+conformarán el PRDA.
+6. Presentar al equipo de COLBÚN resultados, conclusiones y plantear líneas de acción y pasos a
+seguir
+Rev. B 24-04-2026 Página 5 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+2. REVISIÓN DE INFORMACIÓN ANTECEDENTE
+2.1 Marco Geológico y Geomorfológico Regional
+El Lago Chapo se ubica en la Región de Los Lagos (Chile), emplazado en la vertiente sureste del Volcán
+Calbuco, en el marco del Batolito Norpatagónico. Sobre este basamento se presentan áreas de rocas
+volcánicas producto del centro volcánico del Calbuco y de otros centros emisores. La geología regional,
+conforme a la cartografía del Servicio Nacional de Geología y Minería (SERNAGEOMIN, 2011) se presenta en
+la Figura 1 y está dominada por las siguientes unidades:
+- Granitoide del Batolito Norpatagónico (Mg): granodioritas, dioritas y tonalitas de hornblenda y biotita
+— roca de alta competencia que aflora en los macizos ribereños y controla la erosión de base.
+- Rocas metamórficas y plutónicas (Pzm): compuesto por rocas metamórficas de alto grado, de
+protolito plutónico máfico a ultramáfico y, en menor medida, pelítico.
+- Lavas y rocas piroclásticas de cono: (Hc3) Coladas de lava predominantemente andesítico-basálticas
+a andesíticas. (Plc2) Coladas de lavas andesíticas y dacíticas, además de potentes intercalaciones
+de brechas piroclásticas y brechas de origen lahárico. (Plc1) Conjunto de lavas, principalmente
+andesítico-basálticas junto a escasos basaltos, con intercalaciones volcanoclásticas.
+- Hacia el noroccidente del lago se encuentra la Unidad Estratos del Hueñuhueñu (Plhh), conformada
+por brechas y conglomerados volcanoclásticos de probable origen lahárico, con intercalaciones de
+lavas andesítico-basálticas.
+- Depósitos de lahares recientes e históricos (Hl4) Gravas gruesas a finas, mal a moderadamente
+seleccionadas, ricas en matriz arenosa, ocasionalmente con cenizas, correspondientes a depósitos
+dejados por lahares fríos y calientes, asociados a erupciones recientes.
+- Abanicos de lahares y flujos piroclásticos prehistóricos (Hlp3) Abanicos de lahares y depósitos de
+flujos piroclásticos antiguos.
+- Lavas y domos históricos (Hc4): depósitos de erupciones históricas (1912, 1917, 1929, 1961) y de la
+erupción subpliniana de abril de 2015, que introdujeron volúmenes significativos de material
+laharo-piroclástico en la cuenca del Lago Chapo, alterando la red de drenaje y la carga de
+sedimentos de los ríos afluentes.
+La erupción de 2015 del Volcán Calbuco merece atención especial como factor explícito de perturbación
+externa: los lahares generados por deshielo e intensas precipitaciones depositaron materiales piroclásticos en
+los cauces del Río Este, Río Blanco y afluentes menores que descargan al lago, modificando el suministro de
+sedimentos aguas arriba. No obstante, es importante delimitar este efecto respecto a los procesos atribuibles
+a la fluctuación del nivel del lago generada por la operación de la Central Canutillar.
+Rev. B 24-04-2026 Página 6 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Figura 1. Geología local Escala 1:50.000
+Fuente: Servicio Nacional de Geología y Minería (SERNAGEOMIN), 2011
+2.2 Operación histórica de la Central Canutillar y alteración del régimen de nivel
+La Central Hidráulica Canutillar utiliza el Lago Chapo como embalse de regulación. Antes de la
+implementación del proyecto el nivel del lago variaba entre los niveles 240 y 243 msnm, de acuerdo al
+documento 808-23-OT-00-IN-HD-001 INFORME HIDROLÓGICO DE CRECIDAS Y CAUDALES AFLUENTES
+AL LAGO del 2023. Desde el inicio de operación de la central en 1991, el régimen de fluctuación del lago
+superó ampliamente el rango de variación natural previo, alcanzando cotas cercanas a 220 msnm, muy por
+debajo del nivel histórico natural.
+Los datos hidrológicos revisados muestran que el caudal promedio anual se mantiene comparable entre los
+periodos pre-operación (1941-1991) y post-operación (1991-2022) de acuerdo a el documento
+808-23-OT-00-IN-HD-001 INFORME HIDROLÓGICO DE CRECIDAS Y CAUDALES AFLUENTES AL LAGO
+del 2023, lo que indica que el efecto de erosión no está relacionado con el volumen total de la escorrentía,
+sino en la frecuencia y amplitud de las variaciones de nivel.
+Rev. B 24-04-2026 Página 7 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+La oscilación interanual desde el año 2020 muestra que el lago puede descender hasta la elevación 230
+m.s.n.m. durante los períodos de alta demanda de generación (diciembre a mayo), alcanzando valores
+cercanos al nuevo límite provisional ordenado por el 3TA, (231 m.s.n.m).
+El mecanismo central identificado es el siguiente: los descensos extremos y prolongados del nivel del lago
+que reducen el ‘colchón hídrico’ que sostiene hidráulicamente las desembocaduras de los afluentes. Esto
+genera un desnivel colgante entre el cauce afluente y el nuevo nivel base del lago, aumentando la pendiente
+hidráulica y, con ello, el potencial erosivo sobre el lecho y las márgenes. El resultado es la erosión
+retrogradante: el lecho del río se socava desde aguas abajo hacia aguas arriba, con colapsos laterales
+progresivos en los taludes.
+Se recibieron varias fotografías aéreas que, junto con las imágenes de Google Earth, permitieron darle
+seguimiento a la evolución de los cambios en la morfología de los ríos y la erosión generada. Dado que el río
+Negro representa la cuenca de mayor tamaño y la mayor escorrentía, se enfocó el análisis histórico en este.
+La Figura 2 muestra la secuencia de las imágenes entre 1982 y 2023 y las observaciones principales en la
+comparación de fotografías.
+a) Antes del proyecto (1982) y 5 años de operación de la central (1995)
+Rev. B 24-04-2026 Página 8 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+b) Comparación antes de bajar el nivel por debajo de la 230 msnm (1995) y después (1998)
+c) Imágenes disponibles para 2005
+Rev. B 24-04-2026 Página 9 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+d) Cambios observados entre 2010 y 2012
+e) Últimos años en que se bajó el lago por debajo de la 230 msnm
+Rev. B 24-04-2026 Página 10 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+f) Aspecto después de limitar nivel mínimo a la 230 msnm
+Figura 2. Secuencia de imágenes aéreas que evidencian los impactos del nivel mínimo del lago.
+Antes del inicio de la operación de la central se observa que el río presentaba un canal único en su tramo
+final. Aguas arriba se formaban barras de sedimento grueso, generadas por la alta producción de material en
+la cuenca superior y la reducción de la capacidad de transporte hacia la desembocadura. Dicha producción
+proviene de pendientes altas, roca meteorizada y la combinación de períodos de deshielo y lluvias intensas.
+En 1995, cinco años después de la entrada en operación de la Central Canutillar, se observa el efecto del
+nivel máximo normal impuesto por la barrera en el río Chamiza, que promovió la acumulación del material
+grueso más aguas arriba del nivel del lago y que dio origen al inicio de migración lateral en el meandro más
+cercano. El aumento del nivel máximo normal se evidencia en el ancho del cauce en la comparación de
+imágenes del 1982 y 1995, este nivel alto genera remanso y promueve la acumulación de material grueso
+hacia aguas arriba del nivel máximo normal del lago.
+Entre 1996 y 1998 se amplió significativamente el ancho del cauce, esto probablemente está asociado al
+mayor descenso del nivel del lago, originado por un período de sequía en Chile. El mayor rango de variación
+del nivel activó la migración lateral en el tramo final del río y la incisión del cauce principal.
+Las imágenes del año 2005 muestran la situación en un nivel bajo y en un nivel alto, comparando las
+imágenes disponibles para ese año es muy evidente la erosión lateral y la degradación del lecho que el rango
+extremo de variación del nivel estaba causando. Aguas arriba, fuera del nivel del lago, se observa un aumento
+en la acumulación de sedimentos en el cauce, que también produjo erosión de márgenes debido a la
+producción y transporte de sedimentos desde la cuenca superior. En la gráfica de la Figura 5 se presenta la
+variación del nivel del lago entre los años 2004 y 2005, donde se muestra el nivel y el día del año.
+.
+Rev. B 24-04-2026 Página 11 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Entre 2010 y 2012 el proceso de degradación continuaba, la migración lateral continuaba en el tramo final del
+río y se producía el corte de meandros y la generación de un nuevo canal principal. La situación es muy
+similar entre los años 2016 y 2018. Este no es el comportamiento en un delta donde domina la acumulación
+de sedimentos, esto es un claro ejemplo de degradación por aumento en la capacidad de transporte por
+aumento de gradiente en el tramo final del río.
+Entre los años 2020 y 2023 se observa una aparente estabilización del tramo final del río, aunque solo se
+tiene imágenes con el nivel alto, se observa la recuperación de la vegetación y no se ve incremento en la
+erosión de las márgenes.
+Se contó con el registro de nivel del lago desde el inicio de operación de la Central Canutillar. A continuación
+se muestran las gráficas que se construyeron de acuerdo a los períodos analizados con las imágenes
+disponibles. El objetivo es poder asociar los procesos observados en las imágenes aéreas con el rango
+presentado de niveles del lago.
+La figura 3 muestra la variación de niveles en el Lago a partir de registros diarios de nivel para los años 1991,
+1994 y 1995, nótese que el nivel máximo estuvo alrededor de 243 msnm, con un pico sobre la cota 245 msnm
+causado a la creciente hacia el final del año 1991. El nivel mínimo no llegó a la cota 230 msnm.
+Figura 3. Variación del nivel del lago entre los años 1991 y 1995.
+La Figura 4 presenta la variación del nivel del lago entre 1996 y 2000, nótese que en el 1996 el nivel
+descendió durante todo el año. Anteriormente, hacia el final del año el nivel del lago se recuperaba. En 1997
+Rev. B 24-04-2026 Página 12 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+el nivel empezó a ascender y entre 1996 y 1997 el nivel mínimo fue 225 msnm, por primera vez por debajo de
+los 230 msnm. En 1998 de nuevo el nivel descendió durante todo el año, hasta alcanzar los 220 msnm en el
+año 1999. El nivel del lago no volvió a superar los 240 msnm hasta en el año 2000.
+En el año 2004 el nivel estuvo por debajo de la 240 msnm, hacia el final de ese año el nivel llegó a la 235
+msnm, y nivel mínimo en 228 msnm, en el 2005 el nivel mínimo llegó a la 226 msnm y se llenó el lago
+llegando a la cota 243 msnm (ver Figura 5).
+Figura 4. Variación del nivel del lago entre los años 1996 y 2000
+Rev. B 24-04-2026 Página 13 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Figura 5. Variación del nivel del lago entre los años 2004 y 2005
+Entre 2009 y 2012 el nivel mínimo estuvo entre 226 y 222 msnm y el nivel máximo no llegó a la cota 236
+msnm (Figura 6). Este nivel máximo más bajo de lo normal, y sostenido durante varios años, también
+contribuye a la degradación del cauce, ya que las crecientes se proyectan más hacia aguas abajo, generando
+el movimiento de barras e inestabilidad lateral, que terminan en el corte de meandros observado en las
+imágenes.
+Figura 6. Variación del nivel del lago entre los años 2009 y 2012
+Rev. B 24-04-2026 Página 14 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Figura 7. Variación del nivel entre los años 2016 y 2018
+La Figura 7 muestra la variación del nivel del lago entre 2016 y 2018, el comportamiento es similar al de los
+años anteriores, con un nivel mínimo por debajo de la 230 msnm y un nivel máximo que no alcanza los 240
+msnm.
+En el año 2018 se llegó a un acuerdo con la comunidad de no bajar el nivel por debajo de los 230 msnm. Este
+acuerdo se implementó a partir del año 2020. La Figura 8 muestra la operación desde el 2020 hasta el 2025
+se observa que el lago desciende hasta el nivel mínimo acordado, incluso por encima de este. El lago
+recuperó el nivel 240 msnm en los años 2022, 2023 y 2024, en los años 2020 y 2021 no lo alcanzó, quizá por
+el proceso de calibración de la generación para ajustarse a la limitación del volumen disponible.
+Rev. B 24-04-2026 Página 15 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Figura 8. Variación del nivel entre los años 2020 y 2025
+La diferencia en la operación del lago durante los últimos seis años puede ser la causa de la aparente
+recuperación observada en la inspección de los afluentes.
+Desde 1996 se observa una tendencia en la reducción del nivel mínimo del lago, bajando el nivel por debajo
+de los 230 msnm, y se observa que en algunos años no se recupera el nivel 240 msnm en la época de mayor
+afluencia de caudales. Esta situación se presentó hasta el año 2019, lo que expuso la descarga de los ríos a
+un nivel del lago bajo durante un período de 25 años.
+2.3 Marco Regulatorio y Laudo del Tercer Tribunal Ambiental (3TA)
+La Sentencia Causa Rol N° D-4-2022 del Tercer Tribunal Ambiental determinó que la operación de la Central
+Canutillar provocó daño ambiental; establece que no hay evidencia, así como tampoco de la existencia de
+daños antes de que la central entrará en operación. Además da por cierto que los daños evidenciados son
+responsabilidad de la operación de la central basado, entre otros, en un informe allegado por el Demandante,
+quien ha sido considerado como idóneo por parte del tribunal. En el Artículo Centésimo Décimo Cuarto el
+Tribunal da por probado que existe un daño ambiental y que además obedece a la conducta culposa del
+Demandado. Es importante anotar que el daño al que se refiere el Tribunal se limita al que se presenta en
+Riberas del Lago y Cauces, a la vegetación, suelo y al paisaje por lo que el marco de las actuaciones futuras
+debe ser en ese sentido y no en el sentido amplio de la operación de la Central.
+Rev. B 24-04-2026 Página 16 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Además de reconocer el daño, el Tribunal realiza un análisis somero de la significancia del daño en las riberas
+del Lago Chapo, evaluando criterios de: (i) extensión del área afectada, (ii) magnitud de la alteración, (iii)
+duración de los detrimentos, (iv) capacidad y tiempo de regeneración del ecosistema, y (v) calidad y valor de
+los servicios ecosistémicos impactados. El análisis es meramente cualitativo y general y concluye que las
+funciones de los ecosistemas ribereños han sido significativamente afectadas a causa de los daños en riberas
+y cauces.
+Si bien el Tribunal Tercero Ambiental visibiliza la significancia a partir de los cinco atributos mencionados
+anteriormente, queda en duda si realmente las funciones de los ecosistemas asociados a las riberas y al
+mismo lago fueron afectadas en sus funciones básicas, pese a la pérdida o daño de alguna porción de sus
+elementos. Así las cosas, si bien parece lógico el análisis de significancia parece debatible lo relacionado a la
+magnitud del daño, especialmente si se relaciona con las funciones básicas de los ecosistemas y de los
+servicios ecosistémicos que las riberas y lago ofrecen.
+En el Artículo Sexagésimo Séptimo el Tribunal concluye:
+“... el Tribunal considera que la afectación al ecosistema ribereño comprometió significativamente las
+características y procesos ecosistémicos que hacen posible mantener la estructura, funcionalidad y
+resiliencia del sistema, dado que se dañaron componentes físicos y biológicos. En este sentido, los
+procesos erosivos, junto con la pérdida de cubierta vegetal, inciden directamente en la pérdida de
+capacidad del ecosistema para mantener flujos como los que hacen posible la regeneración y el
+desarrollo de especies vegetales, mantener la estructura del suelo o brindar servicios ecosistémicos
+como aquellos de regulación y provisión de hábitat para especies de flora y fauna. Además, la
+condición actual de inestabilidad física de las riberas implica una mayor vulnerabilidad del sitio. Por
+todo lo anterior, el Tribunal también tendrá por configurado este criterio de significancia”.
+Se resalta el énfasis que hace el tribunal en los conceptos de características de los ecosistemas y sus
+elementos (en el caso particular las riberas, cauces y vegetación asociada), sus funciones y la capacidad de
+los mismos de mantener y ofrecer los servicios ecosistémicos. Entender cuáles son los ecosistemas, cuáles
+son sus elementos, cuales son las funciones de los ecosistemas y sus elementos es esencial para poder
+acotar y delimitar esfuerzos y acciones, lo mismo que para poder establecer planes de seguimiento y
+monitoreo a acciones directas sobre riberas. Siguiendo la línea argumentativa del Laudo resulta primordial
+enmarcar las acciones de estabilización y recuperación de cauces y riberas en los servicios ecosistémicos, las
+funciones de los elementos y los ecosistemas afectados. Lo anterior en consideración de los ciclos y
+fenómenos naturales propios del territorio. Se anota que los estudios relacionados con los elementos, las
+funciones de los ecosistemas y los servicios en principio tendrán como objetivo corroborar las propuestas de
+acciones y no tienen como objetivo presentación de análisis a la SEA, sin que ellos implica que los análisis y
+resultados no puedan utilizarse en línea argumentativa a la SEA. Se aclara que estos estudios de análisis de
+servicios ecosistémicos serán elaborados por un tercero y en caso de ser adjudicada la etapa 2 a Ingetec,
+estos serán entregados como insumo por Colbún S.A.
+Rev. B 24-04-2026 Página 17 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Habiendo corroborado el daño y su significancia (que resulta en la afectación a las funciones del ecosistema)
+el Tribunal concede a la Demandada acción para contribuir en reparar el medioambiente (o sus componentes)
+a una calidad similar (previo al daño) o en caso de no ser posible restablecer las propiedades básicas (del
+ecosistema o sus componentes). Como se indica en al Artículo Centésimo Décimo Quinto se busca que las
+acciones de reparación restablezcan las propiedades básicas de los ecosistemas para que (a través del
+tiempo y de forma natural) los elementos afectados ofrezcan sus servicios al ecosistema, la naturaleza y a la
+sociedad (usuario). Es importante hacer referencia al pronunciamiento del Tribunal en el Artículo VIGÉSIMO
+NOVENO: “En autos se ha interpuesto la acción de reparación por daño ambiental contemplada en los arts.
+3° y 51 y ss. de la Ley N° 19.300. Esta acción tiene por objeto reponer el medio ambiente o sus componentes
+a una calidad similar a la que tenían con anterioridad al daño causado o, en caso de no ser posible,
+restablecer sus propiedades básicas, como indica el art. 2°, letra s), de la Ley N° 19.300”. Ante la
+imposibilidad de reparar en estricto cumplimiento de la Ley se deben reestablecer las condiciones básicas de
+funcionamiento de los ecosistemas.
+El fallo establece cuatro obligaciones principales para COLBÚN:
+1. Operar la central con una cota mínima provisional de 231 m.s.n.m. hasta que se determine la cota
+mínima de estabilidad definitiva mediante estudios técnicos.
+2. Implementar medidas de control de procesos erosivos y que contribuyan a la recuperación de
+atributos biofísicos del ecosistema ribereño, incluyendo soluciones basadas en la naturaleza y
+bioingeniería.
+3. Someter al SEIA la actualización de las variables operacionales de la central, integrando modelación
+de cambio climático.
+4. Realizar un proceso de socialización transparente con la comunidad local.
+Es relevante destacar que el fallo delimita explícitamente el alcance de la responsabilidad: quedan dentro del
+PRDA los efectos de la fluctuación hidrológica extrema, la erosión retrogradante en las desembocaduras de
+los ríos (siendo el Negro, Pitote y Playa Blanca a los que hace referencia específca las pruebas aportadas por
+la Demandante sin que el Laudo limite específicamente a estos tres ríos acciones de PDRA), y la inestabilidad
+en la banda de impactos de la ribera. Quedan fuera del alcance los daños morfológicos atribuibles
+exclusivamente a la actividad del Volcán Calbuco y la existencia de algunas las fallas geológicas
+preexistentes no vinculadas al variación en el nivel del lago. Si bien lo anterior es de beneficio el reto estará
+en poder determinar y delimitar la interacción entre los eventos, procesos y ciclos naturales y aquellos
+propiciados por la operación de la Central (específica y exclusivamente aquellos relacionados con los niveles).
+Si bien el Laudo del Tercer Tribunal Ambiental es claro en las obligaciones, su análisis deberá integrarse con
+el entendimiento de los conceptos ambientales expuestos da las pautas y claridades para mantener el PRDA
+y futuras actuaciones enfocadas y enmarcadas para evitar excesos en las solicitudes y pretensiones de
+actores interesados tales como vecinos, comunidad, usuarios, autoridades u otras instancias.
+Rev. B 24-04-2026 Página 18 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+El cumplimiento de los cuatro frentes de acción establecidos en el PDRA es fundamental, no obstante, es
+importante resaltar los requerimientos que hacen referencia a la interacción con el SEIA y las comunidades
+locales ya que las reacciones de esos actores pueden ir en contra de los intereses de COLBÚN e incluso
+pueden llegar a ser perjudiciales para la continuidad de la operación de la Central.
+Lo anterior merece establecer planes estratégicos no solo de comunicación a terceros sino de construcción de
+argumentos que, si bien pueden ser orientados a ser normativos y legales, están basados en el conocimiento
+técnico y científico (proveniente de diferentes disciplinas como hidrología, hidráulica, geología, geotecnia,
+ecosistemas y sus servicio) para dejar de ser especulativo. Se resalta la importancia de este conocimiento
+para poder delimitar responsabilidades de los daños visibles así como para establecer la meta de
+cumplimiento satisfactorio en la recuperación de las funciones del ecosistema y sus elementos.
+Finalmente cabe resaltar que, adelantar estudios a profundidad de los fenómenos ocurridos y sus
+consecuencias no implica acciones directas en rechazo al Laudo (lo mismo ha manifestado COLBUN en la
+reunión de cierre de visita), sino por el contrario poder formular argumentos científicos para el PDRA y
+posibles actuaciones futuras.
+3. HALLAZGOS REALIZADOS DURANTE LA VISITA
+3.1 Contexto General del Sistema Lago-Afluentes
+La visita permitió confirmar que el Lago Chapo y su cuenca constituyen un sistema fluvioglacial y volcánico,
+donde el nivel del lago afecta en mayor o menor medida la dinámica del tramo final de todos los cauces
+tributarios. El impacto de la variación del nivel del lago debe estudiarse a fondo para establecer en cuáles
+afluentes la situación actual es debido al nivel del lago e identificar los impactos propios de la dinámica de
+cada subcuenca. La configuración geológica, macizos rocosos de granodiorita alternando con depósitos
+aluviales y morrenas glaciales blandas, genera una heterogeneidad espacial marcada en la resistencia a la
+erosión a lo largo de las riberas.
+Se observó que el nivel del lago durante la visita se encontraba aproximadamente en 237–238 m.s.n.m.,
+dentro del rango de operación provisional. Esto permitió identificar con claridad la ‘Banda de Impactos’ entre
+231 y 243 m.s.n.m.: la zona media expuesta, inestable y con suelos desnudos o cobertura vegetal degradada,
+a diferencia de la zona superior (>243 m.s.n.m.) con vegetación ribereña intacta.
+También se observó acumulación reciente de sedimentos gruesos en el lecho en el sector de aguas arriba de
+la zona degradada en años anteriores. Esto evidencia el transporte de sedimentos desde la cuenca superior y
+que contribuyen a la recuperación del sistema inferior del río, luego del proceso de incisión generado por la
+operación a niveles cercanos al nivel 220 m.s.n.m y el sostenimiento prolongado de niveles bajos. La
+dinámica sedimentológica en el tramo aguas arriba de la oscilación del lago se ha mantenido sin afectación,
+de acuerdo al análisis de imágenes presentado en la sección 2.2.
+Rev. B 24-04-2026 Página 19 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+3.2 Mecanismos de erosión retrogradante en cauces afluentes
+Desde la operación de la central Canutillar, incluso antes de su construcción, se presentaron estudios para
+analizar el impacto del descenso del nivel del lago sobre la estabilidad de las riberas y los principales
+afluentes. Sin embargo, no se ha presentado un estudio integral que incluya el análisis de la morfología fluvial
+y el efecto de la variación del nivel del lago sobre el equilibrio de las variables morfológicas.
+Por tal motivo se considera pertinente establecer un marco teórico que permita interpretar los impactos
+observados a partir de las variables morfológicas de un río.
+La morfología fluvial establece dos variables independientes que son el caudal o escorrentía y la producción
+de sedimentos. Estas variables son independientes porque son propias de la cuenca y de ellas depende la
+forma del río. Las variables dependientes son la geometría del cauce (ancho, profundidad), el perfil
+longitudinal (pendiente) y la forma en planta (relacionada con el índice de meandricidad). Se debe agregar, la
+geología puede influir en la morfología de un cauce, restringiendo el alineamiento (forma en planta) o su
+pendiente longitudinal; sin embargo, la influencia de la estructura geológicas se da en el tramo alto de la
+cuenca y rara vez en el tramo aluvial.
+En la parte superior de la cuenca es donde se produce la mayor parte del sedimento, y en ese tramo de altas
+pendientes domina el transporte. Hacia aguas abajo se reduce la pendiente y con ella la capacidad de
+transporte, por eso se da el transporte pero también el almacenamiento de sedimento en el cauce. La
+acumulación de sedimentos gruesos da origen a la formación de barras laterales y con estas a los meandros
+o a la formación de canales secundarios. Con la reducción de la capacidad de transporte, se reduce el
+tamaño de los sedimentos que son transportados hacia aguas abajo. La Figura 9 muestra esquemas de estos
+conceptos básicos.
+Rev. B 24-04-2026 Página 20 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+b) Perfil longitudinal del río con los procesos
+dominantes en cada sector.
+a) Esquema de la dependencia del caudal y la
+producción de sedimentos en una cuenca.
+Figura 9. Esquemas que muestran aspectos básicos de la morfología fluvial
+Fuente: Charton, 2008.
+La Figura 10 presenta las formas típicas de producción de sedimentos en la cuenca superior y su rol en el
+tramo aluvial o final de un río. Además, se observa la variación de la capacidad de transporte y el
+almacenamiento e intercambio de sedimentos entre el cauce y la planicie de inundación, así como la dinámica
+normal en la parte final donde predomina la sedimentación.
+Rev. B 24-04-2026 Página 21 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+a) Orígenes de los sedimentos en una cuenca b) Interacción de los sedimentos en el tramo
+aluvial
+c) Tramos morfológicos de un río de acuerdo a la d) Dinámica normal en la desembocadura de un
+producción y al transporte de sedimentos río
+Figura 10. Esquema de la producción e interacción de los sedimentos con la forma del río.
+Fuente: Charton, 2008.
+Una forma cualitativa de analizar la tendencia en las variables morfológicas generadas por una perturbación
+es el balance de Lane que se muestra en la Figura 11. Consiste en una balanza donde en un lado está la
+producción y características de los sedimentos y en el otro la pendiente y el caudal. Naturalmente el río tiende
+al balance o equilibrio pero cualquier perturbación en sus variables morfológicas iniciará un proceso de
+adaptación que representa un período de desequilibrio.
+Rev. B 24-04-2026 Página 22 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Figura 11. Balance de Lane
+Fuente: Charton, 2008.
+El cambio en el nivel de descarga implica un cambio en la pendiente o gradiente de energía disponible para el
+transporte de sedimentos.
+Por ejemplo, si el nivel sube, se reduce el gradiente hidráulico, y el caudal se mantiene, la perturbación
+consiste en la reducción de la pendiente. La reducción de la pendiente inclina la balanza de Lane hacia la
+izquierda y apunta hacia la agradación del cauce. La agradación se genera porque el río no tiene capacidad
+de transportar el sedimento que viene de aguas arriba y deposita material en el fondo del cauce. En el
+equilibrio final cambiaría la forma en planta y el río se volvería trenzado.
+Si el nivel de la descarga baja y el caudal se mantiene, la balanza se inclina hacia la derecha y la aguja marca
+la degradación. El aumento en la capacidad de transporte se transforma en erosión, ya que la capacidad de
+transporte supera al volumen de sedimentos que viene de aguas arriba. El proceso se conoce como incisión y
+tiene un ciclo establecido hasta llegar al equilibrio; sin embargo, si el nivel de en la descarga muestra un
+rango amplio de variación, el proceso no llega a estabilizarse.
+En los afluentes principales del lago se presentaron inicialmente efectos del aumento del nivel del lago, pero
+después del año 1996 el descenso en los niveles hizo que dominara el proceso de degradación. Es así como
+a partir del año 1998 se intentó construir estructuras de control, como se indica en la Figura 12.
+Rev. B 24-04-2026 Página 23 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Figura 12. Trabajos proyectados en el río Negro entre 1998 y 2004
+Si bien las obras propuestas pueden funcionar, estas no se aplicaron con un entendimiento claro del problema y las
+características de los ríos y terminaron fallando. Por ejemplo, el dragado o perfilado de la sección va a fallar si no se
+dimensiona de acuerdo al caudal formativo o dominante, la Figura 13 muestra las obras que se implementaron entre
+1998 y 2004.
+a) Gradas construidas en el río Negro
+Rev. B 24-04-2026 Página 24 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+b) Perfilado de taludes y barrera de troncos
+Figura 13. Obras implementadas entre 1998 y 2004
+Río Negro
+Es el cauce con mayor trazado de erosión retrogradante documentado; además de ser el río con la mayor
+área de cuenca. Durante la visita se identificaron los siguientes hallazgos:
+• Incisión en el cauce en su tramo final o de confluencia con el lago, con exposición de los estratos
+basales de depósitos glaciales heterogéneos (grava, arena y limo) pero no parece que este proceso
+esté activo o en crecimiento.
+• Erosión de márgenes con caída de vegetación en los sectores externos de curvas, pero se observó
+avance gradual de la vegetación sobre los taludes.
+• Alta producción de sedimentos gruesos en la parte superior de la cuenca que se está proyectando
+hacia la zona afectada.
+• Movimiento reciente de barras de sedimentos gruesos hacia la zona de influencia del nivel del lago o
+zona de inestabilidad antigua.
+• Meandros cortados o abandonados durante las pasadas dos décadas donde se dieron cambios
+significativos en la dinámica del cauce.
+El conjunto de fotografías de la Figura 14 muestra la situación encontrada en el río Negro.
+Rev. B 24-04-2026 Página 25 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+a) Tramo con clara incisión del lecho b) Frente de la barra de sedimento grueso,
+aguas arriba de la incisión principal
+c) Recuperación del fondo del lecho aguas d) Crecimiento de la vegetación en taludes
+arriba afectados
+Figura 14. Fotografías de la visita (marzo, 2026)
+Río Pitote
+Este río presenta un patrón similar al observado en el río Negro, pero de menor extensión que en la
+afectación por erosión e inestabilidad de laderas, la visita se resumen en las siguientes observaciones:
+• Incisión del lecho en el último kilómetro antes de su desembocadura.
+• Erosión lateral localizada en la parte externa de curvas del cauce, con formación de barras de
+sedimento grueso dentro del cauce.
+Rev. B 24-04-2026 Página 26 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+• Alta producción de sedimentos en la cuenca superior que alimenta el tramo final del río.
+• La vegetación ribereña muestra signos de estrés por la variación del nivel freático: individuos
+arbóreos con sistema radicular expuesto y en proceso de pérdida de soporte.
+La imágenes de la Figura 15 resumen lo observado en este río.
+Figura 15. Fotografías de la visita al río Pitote (marzo, 2026)
+Río Cululí
+En el río Cululí se observa la incisión del cauce en su tramo final (Figura 16), desarrollada en materiales
+predominantemente gruesos, en un valle amplio. En los bancos se observan restos de vegetación de porte
+importante que ha sido afectada por la fluctuación del lago. Se observan los materiales más gruesos hacia
+aguas arriba, presentes tanto en el lecho como en las márgenes del cauce.
+Rev. B 24-04-2026 Página 27 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Figura 16. Fotografías de la visita al río Cululí (marzo, 2026)
+Río Cedro
+En la Figura 17 se observa el aspecto de la desembocadura del río Cedro, el cual muestra una afectación
+mucho más localizada, con presencia de materiales gruesos y en particular sobre la margen derecha se
+observa el afloramiento rocoso como elemento de control litológico que limita la extensión lateral de la
+afectación.
+Figura 17. Fotografías de la visita al río Cedro (marzo, 2026)
+Rev. B 24-04-2026 Página 28 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Río León
+En la Figura 18 se observa la desembocadura del río, el cual presenta una zona de depositación de bloques
+de mayor tamaño, de mayor angularidad que los observados en otros drenajes, que denotan un menor
+transporte, con presencia superficial de materiales finos.
+Figura 18. Fotografías de la visita al río León (marzo, 2026)
+Río Playa Blanca
+Este cauce presenta la menor magnitud de intervención de los tres afluentes principales, observándose las
+siguientes características:
+• Incisión incipiente del lecho en su desembocadura, con una caída de entre 1 y 2 metros respecto a la
+llanura de inundación adyacente.
+• En la Figura 19 se observa la carga de sedimentos gruesos proveniente de la cuenca alta y los
+bloques que aparecen en el lecho, los cuales limitan parcialmente el avance de la erosión
+retrogradante.
+Rev. B 24-04-2026 Página 29 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Figura 19. Río Playa Blanca - Características de la zona de entrega al lago
+3.3 Inestabilidad de laderas y banda de impactos
+En los siguientes documentos se ha abordado la descripción de los procesos denudativos que se presentan
+en los afluentes principales del lago:
+● EDIC Ingenieros SpA. (2023, marzo). Estudio de cotas del Lago Chapo: Informe de visita a terreno
+(Informe N° 808-23-OT-00-IN-GL-001). Preparado para Colbún S.A.
+● EDIC Ingenieros SpA. (2023, septiembre). Central Canutillar, Estudio de variabilidad de niveles del
+Lago Chapo: Análisis de la influencia de la variabilidad de cotas del lago en sus riberas y afluentes
+(Informe N° 808-23-OT-00-IN-HI-001). Preparado para Colbún S.A.
+● Laboratorio Visan & EDIC Ingenieros. (2023, marzo-abril). Informe calicatas y análisis de suelos:
+Proyecto estudio de niveles del Lago Chapo (Elaboración: Andrés Pavez Molina).
+● Rodríguez y Goldsack Ingeniería Civil Ltda. (RyG) & EIC Ingenieros Consultores Ltda. (2017,
+enero). Informe Inicial: Conceptualización del problema de estabilización de las laderas y del cauce
+del río Negro, Lago Chapo, Central Canutillar (Documento N° 2550, Rev. B). Preparado para Colbún
+S.A.
+● Rodríguez y Goldsack Ingeniería Civil Ltda. (RyG) & EIC Ingenieros. (2019, mayo). Diagnóstico
+sobre el impacto de la variabilidad de niveles en el lago Chapo: Resultados del estudio (Rev. Q)
+A lo largo de las riberas del lago se identificó la denominada ‘Banda de Impactos’, comprendida entre la cota
+provisional mínima (231 m.s.n.m.) y el rango de fluctuación de niveles del lago en condición natural. Los
+hallazgos geotécnicos más relevantes son:
+• La inspección de las laderas y riberas del Lago Chapo permitió establecer una caracterización
+geotécnica que difiere significativamente de una condición generalizada de inestabilidad. El
+panorama observado es el siguiente:
+Rev. B 24-04-2026 Página 30 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+• Condición general de las riberas – taludes en roca estables: La gran mayoría de las laderas que
+conforman las riberas del lago están constituidas por macizos rocosos del Batolito Norpatagónico
+(granodioritas y tonalitas), que presentan buena competencia geomecánica y se encuentran en
+condición estable. No se identificaron procesos activos de inestabilidad en estos tramos, los cuales
+representan la extensión dominante del perímetro del lago.
+• Procesos geotécnicos puntuales en zonas de desembocadura: Los únicos sectores donde se
+identificaron procesos activos de inestabilidad de ladera y de márgenes se concentran puntualmente
+en las zonas de desembocadura de los cauces afluentes, donde la interacción entre el nivel
+fluctuante del lago, la erosión retrogradante y los depósitos aluviales blandos genera condiciones de
+inestabilidad local. Fuera de estas zonas, las laderas no presentan afectación atribuible a la
+operación del lago.
+• Inestabilidad en el sector del Río Este – atribución compleja: En la zona de la desembocadura del
+Río Este se identificaron procesos de inestabilidad de ladera que involucran dos viviendas,
+referenciados en la demanda. Sin embargo, la inspección de campo permite concluir que este
+proceso tiene una atribución multicausal en la que el factor dominante es la erupción del Volcán
+Calbuco de abril de 2015: los lahares y depósitos piroclásticos asociados alteraron sustancialmente
+la red de drenaje local, crearon drenajes superficiales e incipientes que concentran la escorrentía y la
+infiltración, y saturaron los materiales de ladera, reduciendo drásticamente la resistencia al corte. La
+combinación de estos factores volcánicos con la descarga de dichos drenajes hacia la ladera
+ribereña es la causa primaria de la inestabilidad observada, y no la variación del nivel del lago.
+• Procesos de inestabilidad en zonas altas no atribuibles al proyecto: Se identificaron, en sectores de
+ladera alta alejados del perímetro inmediato del lago, algunos procesos de remoción en masa y
+deformación de taludes cuya génesis no guarda relación causal con la operación de la Central
+Canutillar. Estos procesos están asociados con mecanismos propios de la dinámica geomorfológica
+andina: saturación por precipitaciones intensas y posibles eventos sísmicos históricos que han
+comprometido la estructura interna de los depósitos volcanoclásticos y coluviales de ladera. Su
+ocurrencia es independiente del nivel del lago y queda, por tanto, fuera del alcance de
+responsabilidad del PRDA según la delimitación establecida por el 3TA.
+• El análisis de potencia específica del flujo para los cauces afluentes utilizando simulaciones 2D
+(EDIC) con niveles de lago a 230 m.s.n.m. versus 235 m.s.n.m. confirmó que a menores niveles del
+lago la zona de alta potencia erosiva se extiende varios kilómetros hacia aguas arriba, mientras que
+a niveles más altos la potencia se concentra en la desembocadura y disminuye rápidamente. Esto es
+consistente con el principio del Balance de Lane y con la teoría del nivel base: el nivel del lago opera
+como condición de contorno de aguas abajo que controla la capacidad de transporte de sedimentos
+del cauce.
+En la Figura 20 se presenta un recuento fotográfico de la visita adelantada el 11 de marzo. La visita se inició
+desde el embarcadero ubicado en la zona norte del lago, al oriente de la Barrera Chamiza, y se desarrolló en
+sentido de las manecillas del reloj. En el primer segmento del recorrido se observan pendientes suaves
+asociadas a suelos de diferente procedencia, en superficie se observan materiales finos, relacionados con
+Rev. B 24-04-2026 Página 31 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+espesores de ceniza de textura limosa y espesor variable (Figura 16a), subyacidos por depósitos por
+abanicos laháricos, con presencia de bolos, espesores de mayor potencia (Figura 16b) y una alternancia de
+materiales finos y gruesos que conllevan una respuesta diferenciada ante las fluctuaciones del lago, sean
+naturales o por operación de la CH Canutillar. En la (Figura 16c) se observan el comportamiento de los
+depósitos de ceniza, las cuales debido a su grano más fino y algo de plasticidad, generan taludes
+prácticamente verticales, con incisiones profundas de los afluentes del lago, y por otro lado, pendientes más
+suaves de los depósitos gruesos que debido a la baja participación de matriz de suelo, tienden a acomodarse
+en un ángulo mucho más suave ante el movimiento del lago.
+(a) (b)
+(c) (d)
+Figura 20. Materiales observados a lo largo del perímetro del lago
+FInalmente, en la (Figura 20d) se muestra uno de los sectores con afloramiento de las rocas ígneas presentes
+en la mayor parte del perímetro del lago, y en las cuales los efectos de la fluctuación del nivel del lago son
+Rev. B 24-04-2026 Página 32 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+prácticamente nulos, con excepción de la pérdida de vegetación como consecuencia de los cambios naturales
+e inducidos por la operación de la Central en los niveles del lago.
+En la Figura 21 se presentan las observaciones principales de cada uno de los afluentes del lago. La Figura
+17 (a, b) muestra la condición del Río Negro, el cual ha tenido la dinámica más intensa en términos de su
+morfología, la cual se parte se favorece por la presencia de materiales más finos, en los que la incisión ha
+generado secciones más profundas, con pendientes más fuertes en las riberas. En el recorrido no se observó
+presencia de material rocoso en el fondo del cauce o hacia los bancos, de manera que el cauce tiene un valle
+amplio para desarrollar los procesos de incisión. En los afluentes Río Pitote, Rïo Cululí, Río Cedro y Río Playa
+Blanca se observan depósitos más gruesos, valles morfológicamente más estrechos controlados por las
+márgenes rocosas, y cuencas más pequeñas, en los cuales se observan igualmente afectaciones aunque de
+menor extensión.
+(a)
+(b) (c)
+Rev. B 24-04-2026 Página 33 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+(d) (e)
+(f) (g)
+Figura 21. Observaciones sobre los afluentes principales. (a, b) Río Negro, (c) Río Pitote, (d) Río Cululí, (e) Río Cedro, (f)
+Río León, (g) Río Playa Blanca
+3.4 Efectos de la erupción del Volcán Calbuco (2015) y factores externos
+La erupción subpliniana de abril de 2015 del Volcán Calbuco representó un evento de perturbación puntual de
+gran magnitud. Los lahares generados por deshielo depositaron volúmenes importantes de material
+piroclástico en los cauces orientados hacia el Lago Chapo (Río Blanco, Río Este), modificando la red de
+drenaje y la carga de sedimentos. Las imágenes satelitales de septiembre de 2015 y de febrero de 2014
+muestran cambios en los drenajes de la cuenca norte como se puede observar en el recuadro 1 de la Figura
+22, y en el recuadro 2 se observa la pérdida de cobertura vegetal en los brazos principales del río Este y el río
+Blanco.
+Rev. B 24-04-2026 Página 34 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Figura 22. Efectos de la erupción de abril de 2015 - Imágenes satelitales Landsat 8 - Bandar 5-4-3
+3.5 Estado de la vegetación ribereña y paisaje
+El Laudo del Tercer Tribunal Ambiental adiciona a las riberas la vegetación y el paisaje como elementos del
+ecosistema directamente afectados por la operación de la Central. Así como las riberas (lago y cauces de
+afluentes), la vegetación y el paisaje deben ser objeto de análisis.
+En cuanto a la vegetación se evidencia la pérdida de individuos arbóreos en sectores degradados de riberas
+del lago y cauces. Además se presenta pérdida de individuos en riberas que no han sido degradadas, así las
+cosas es evidente que la pérdida de vegetación es parte de un ciclo natural de crecimiento a su vez de
+interacción con las fluctuaciones de niveles del lago. Además es evidente que existe pérdida de individuos en
+las partes altas de las cuencas afluentes, los recorridos por las orillas evidencian que las corrientes arrastran
+no solo material pétreo y más fino sino también árboles de tamaño importante que quedan expuestos en las
+playas y orillas de los cauces.
+Lo anterior no implica que el deterioro de las riberas y la operación de la Central no haya influido en la pérdida
+de individuos, más bien implica que no toda la pérdida es atribuible a la operación de la Central.
+Durante el recorrido se evidenció que si bien hay sectores en las márgenes de los afluentes a su llegada al
+lago en los que la vegetación fue arrastrada o por efectos de las inundaciones ha muerto el daño a la
+vegetación es limitado en área, se asocia vegetación ribereña o que está en cotas inundables. Lo anterior se
+corroborá, al revisar fotografías aéreas o satelitales donde la vegetación del territorio aledaño al lago y que
+está por fuera de las zonas inundables aún se mantiene. Esta observación es importante ya que da soporte a
+concluir que la pérdida de algunos individuos en las riberas y zonas inundables no afecta la función de
+aprovisionamiento o soporta para fauna y vegetación asociada en el territorio. Es decir, la pérdida de las
+Rev. B 24-04-2026 Página 35 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+funciones del bosque y fragmentos del mismo no ha sido afectada. Este tipo de análisis será requerido para el
+entendimiento del problema durante la fase 2 de los estudios y no necesariamente está relacionado con el
+análisis de servicios ecosistémicos ni con la evaluación de impactos que será soporte para la interacción con
+el SEA.
+El conjunto de fotografías de la Figura 23 muestran condiciones generales de la vegetación ribereña:
+a) Vegetación ribereña con volcamiento b) Fotografía Satelital - coberturas vegetales
+extensas alrededor de Lago Chapo (fuente
+Google Earth)
+d) Orillas con evidencia de variación de
+c) Vegetación en pié afectada por inundación niveles - se observan individuos arbóreos
+y vegetación acumulada entre sedimentos en pie que evidencia crecimiento en zonas
+y arrastre durante crecientes inundables
+Figura 23. Vegetación Ribereña, fotografías de la visita, marzo, 2026
+El análisis multitemporal de imágenes satelitales (1985–2025) y la observación directa en campo permiten
+caracterizar tres franjas de la cobertura vegetal aledaña al lago:
+Rev. B 24-04-2026 Página 36 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+• Zona Superior (>243 m.s.n.m.): bosque nativo ribereño de alta cobertura, dominado por especies de
+la ecoregión valdiviana, con estratos arbustivo y herbáceo desarrollados. Esta zona no se encuentra
+afectada por las fluctuaciones de niveles de agua, está por fuera de las cotas de inundación
+históricas y presentes. Esta franja es el ecosistema de referencia.
+• Banda de Impactos (231–243 m.s.n.m.): área con pérdida de cobertura vegetal, suelo desnudo
+expuesto a ciclos de inundación y arrastre de material, saturación-desecación, presencia de madera
+muerta en pie (snags) y troncos caídos, y vegetación pionera de baja densidad en proceso de
+recolonización.
+• Zona Inferior (<231 m.s.n.m.): zona actualmente sumergida o intermitentemente expuesta, con
+sedimentos finos laminares y sin cobertura vegetal establecida.
+El análisis multitemporal permite evidenciar que la vegetación ribereña está sujeta a ciclos de crecimiento y es
+influenciada por factores externos a la operación de la Central.
+Ahora bien, los recorridos y análisis de cauces (utilizando fotos aéreas o satelitales) de los afluentes al Chapo
+por encima de la cota 243 evidencia que la degradación de orillas y riberas ocurre en diversos ríos es común,
+presentan pérdida de coberturas vegetales e individuos de especies y portes diferentes. El análisis de
+imágenes de lagos similares y de la región comprueba que el mismo fenómeno de pérdida de coberturas
+vegetales e individuos es común en el territorio.
+Lo anterior da elementos para concluir que no todo el daño a la vegetación es atribuible a los niveles de
+operación del lago, la vegetación está asociada a y existe una codependencia con fenómenos naturales
+(crecidas y avalanchas, inundaciones, entre otros) y que posiblemente la función del ecosistema no se ha
+perdido ni se ha visto gravemente afectada pese ha haber perdido una porción de sus elementos. Es
+importante evaluar la pérdida que tanto representa o afecta la funcionalidad del ecosistema asociado.
+El análisis del paisaje y la vegetación ribereña afectada vislumbra el crecimiento de individuos de tamaños
+importantes por debajo o cercanos de los niveles de operación actual, así como vegetación (árboles de
+tamaño importante) arrastrada y que yace en playas y orillas. Entendiendo las condiciones para el crecimiento
+de ciertas especies se puede llegar a temporalizar las condiciones de orillas y playas en el tiempo y poder
+evidenciar que las coberturas vegetales están sujetas a fluctuaciones y ciclos naturales, es decir la pérdida de
+individuos hace parte de un ciclo.
+El entendimiento de las condiciones de crecimiento, la localización y la estructura de la vegetación entre otros
+aspectos también debe proporcionar elementos para el análisis de las funciones de la vegetación ribereña en
+cuanto al soporte de fauna y flora lo mismo que permitirá el análisis de los servicios ecosistémicos
+proporcionados por la vegetación.
+Asociado a la vegetación se encuentra el concepto de paisaje, ya sea por los ecotonos y la percepción del
+paisaje por un observador o por la función ecosistémica. Estos conceptos deberán ser analizados a
+Rev. B 24-04-2026 Página 37 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+profundidad ya que es uno de los componentes ambientales reconocidos como afectados de forma
+significativa por el Tribunal.
+3.6 Aspectos operacionales y monitoreo
+Se verificó que la cota mínima provisional de 231 m.s.n.m. está siendo respetada desde el año 2024 en
+cumplimiento del Pilar 1 del PRDA. La oscilación del lago en los años 2020–2025 ha estado principalmente
+entre 230 y 241 m.s.n.m., con episodios puntuales cercanos a la cota mínima provisional durante el período
+de verano de mayor demanda eléctrica (enero-mayo).
+El equipo confirmó que existe una necesidad técnica urgente de determinar la cota mínima de estabilidad
+definitiva mediante modelación numérica 2D acoplada y análisis de estabilidad geotécnica en las condiciones
+de mayor susceptibilidad, de manera que la cota provisional se sustituya por un parámetro operacional
+técnicamente fundamentado.
+4. CONCLUSIONES
+Con base en la revisión de información antecedente y en los hallazgos registrados durante la visita de campo,
+se tienen las siguientes conclusiones:
+4.1 Sobre el mecanismo generador del daño
+• Se confirmó que a partir de 1996 cambió el patrón de variación del nivel del lago presentando niveles
+por debajo de los 230 msnm. Se había indicado que el descenso del nivel operativo del lago había
+sido generado por la sequía que azotó Chile entre 1997 y 1998; sin embargo, la variación del nviel es
+muy similar hasta el año 2018. En ese período no sólo se llegó a los niveles más bajos de operación,
+sino que el lago no pudo alcanzar la cota 240 msnm o el llenado en la época húmeda, cambiando la
+energía de la descarga de los afluentes durante la época de mayor escorrentía y promoviendo la
+degradación continuada del tramo inferior de los afluentes. El proceso de incisión fue en algunos
+casos limitado o reducido por el calibre de los bloques que contenía el lecho, como es el caso del río
+Cululí.
+• Desde 1996 se había presentado el aumento en la explotación del volumen del lago, bajando el nivel
+por debajo de los 230 msnm, con dificultades para recuperar el nivel 240 msnm en la época de
+mayor afluencia de caudales. Esta operación se presentó hasta el año 2019, lo que expuso la
+descarga de los ríos a un nivel del lago menor al natural durante un período de 25 años.
+• La erosión retrogradante en el Río Negro es el proceso geomorfológico de mayor magnitud, mayor
+velocidad de avance y mayores consecuencias sobre infraestructura y ecosistema. El proceso
+presentado es hidráulicamente coherente con el modelo conceptual del balance de Lane: al
+Rev. B 24-04-2026 Página 38 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+incrementarse la pendiente hidráulica por el descenso del nivel base, se supera el umbral de
+movilización de sedimentos y se desencadena la incisión y se inestabilizan los taludes.
+• Los factores externos no atribuibles a la operación tales como la depositación de lahares del Volcán
+Calbuco, y el fracturamiento del macizo rocoso producto de la actividad de tectónica de la zona
+enmarcada en un ambiente volcánico con presencia cercana de fallas activas, actúan como
+amplificadores o perturbadores adicionales del sistema, pero no constituyen el mecanismo primario.
+La delimitación de responsabilidades establecida por el 3TA es técnicamente viable.
+4.2 Sobre el estado actual del sistema
+• El sistema lago-afluentes aún no ha alcanzado un nuevo equilibrio morfológico. En el caso del río
+Negro se observaron evidencias de una disminución en los procesos erosivos en una franja de
+aproximadamente 600 m en la zona de desembocadura, sin embargo, hacia aguas arriba se
+observan taludes con pendientes pronunciadas que serán reconfiguradas a medida que se logra una
+condición de equilibrio en el cauce.
+• La cota mínima provisional de 230 m.s.n.m., acordada por Colbún con la Junta de vecinos para ser
+implementada desde enero de 2021, ha reducido la intensidad del proceso erosivo en comparación
+con el período de mayor fluctuación (1996-2018).
+• La inestabilidad geotécnica activa se limita a sectores puntuales en zonas de desembocadura de
+afluentes, donde la erosión retrogradante socavó la base de los depósitos aluviales. La mayoría de
+las laderas del lago están constituidas por macizos rocosos competentes y se encuentran estables.
+Los procesos de inestabilidad en el sector del Río Este y en zonas de ladera alta responden
+principalmente a causas externas (oleaje, erupción del Volcán Calbuco, saturación y posible actividad
+sísmica) no atribuibles a la operación del proyecto.
+4.3 Sobre los datos hidrológicos
+• La comparación de los regímenes hidrológicos pre y post operación (EDIC, 2023) muestra que el
+caudal medio no cambió significativamente, confirmando que el impacto no es de volumen hídrico
+sino de régimen de nivel y velocidad de variación. Esto refuerza la necesidad de sustentar con
+precisión las tasas de descenso del nivel del lago no es la variable determinante en la generación de
+problemas erosivos como lo concluyó el informe de Edic, 2023. El análisis de la operación del nivel
+del lago mostró que después de 1996 el nivel del lago se mantuvo bajo durante varios años, sin
+lograr su nivel máximo, exponiendo las riberas en un nivel inferior al efecto de crecientes sobre el
+tramo inferior de los afluentes. La forma actual de operación muestra evidencias de aparente
+recuperación de la vegetación y el nivel del lecho de los cauces.
+Rev. B 24-04-2026 Página 39 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+4.4 Sobre la Funcionalidad de los Ecosistemas
+● La interacción del Lago Chapo con los ecosistemas naturales es amplia y se presenta a través de
+varios de sus componentes. De especial en el caso del Lago Chapo y más aún frente al Laudo del
+Tribunal Tercero Ambiental son los componentes relacionados con las riberas, los cauces y la
+vegetación (ribereña). Si bien existen otros componentes ambientales relacionados con el Lago y con
+la Central estos tres son los de mayor interés al evaluar la situación actual y el Laudo en mención
+● Se observa que existen daños y modificaciones a los elementos ambientales asociados a las riberas
+y la vegetación ribereña que modifican los suelos, la topografía y el paisaje. Sin embargo a priori se
+considera que la funcionalidad de los ecosistemas y más aún la capacidad del mismo de ofrecer
+servicios ambientales y a la sociedad no se ven significativamente impactados a consecuencia de los
+fenómenos generados por los niveles bajos del lago.
+● Las riberas (del lago y de los cauces), los cauces y el lago deben ser analizados desde la
+funcionalidad de los ecosistemas con los que interactúan para poder determinar aspectos como:
+magnitud y significancia de los daños, atribución de los daños a la Central y su operación, atribución
+del detrimento a fenómenos naturales, entre otros aspectos
+● El análisis integrado de servicios ecosistémicos es una herramienta valiosa para poder argumentar y
+justificar (en la medida de lo posible cuantitativamente) que los ecosistemas no se han visto
+afectados en su funcionalidad a pesar de haber perdido una porción de algunos de sus
+componentes.
+● Los elementos ambientales en cuestión (riberas, cauces y lago) son parte de ecosistemas
+influenciados por fenómenos y fuerzas naturales que la Central no controla, algunas de las
+transformaciones visibles hoy día pueden ser atribuibles a los ciclos naturales. Aunque la operación
+niveles bajos acarrea situaciones desfavorables es evidente que los daños a los ecosistemas visibles
+hoy día no son cien por ciento atribuibles a la Central
+4.5 Sobre el Laudo del Tribunal Tercero
+● El Laudo da por cierto que los daños visibles sobre las riberas, cauces y vegetación son atribuibles a
+la operación de la Central a niveles bajos del Lago.
+● El Laudo realiza un análisis de significancia de los daños y concluye que existe un daño ambiental
+significativo atribuible a la operación de la Central. Indica que hay un detrimento significativo que se
+han afectado las funciones de los ecosistemas
+● Indica que se debe establecer un PRDA en cuatro líneas de acción. Cabe resaltar que una de ellas
+es específica en solicitar la implementación de medidas para el control de los daños y la contribución
+a la recuperación de los atributos biofísicos de los ecosistemas.
+● Cobra sentido además de las medidas estructurales para controlas los daños a riberas, cauces y
+vegetación, ahondar en el entendimiento de su funcionamiento ecosistémico para poder si hay o no
+Rev. B 24-04-2026 Página 40 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+perjuicio a las funciones de los mismo y a su vez fijar metas y alcances para demostrar la
+recuperación
+● Se ha entendido que el objeto del diagnóstico técnico y de futuras acciones no está enfocado a
+controvertir el Laudo. Sin embargo el sí a poder desarrollar y obtener argumentos científicos para
+cuantificar daños atribuibles a la Central, enmarcar acciones y poder corroborar la efectividad y
+eficacia de las acciones.
+5. ESTUDIOS TÉCNICOS Y PASOS A SEGUIR
+Los antecedentes expuestos por COLBÚN, el análisis de información y la visita a campo entre otros aspectos
+permite la conceptualización de una propuesta para el desarrollo de estudios avanzados principalmente
+encaminados al planteamiento de soluciones efectivas de control de daños y de acciones encaminadas a la
+recuperación de las funciones de ecosistemas (requerimiento 2 del Laudo). Si bien los estudios que se
+describen a continuación están principalmente orientados al planteamiento de soluciones basadas en la
+naturaleza y la bioingeniería el entendimiento de los fenómenos ambientales y antrópicos que han generado
+los daños en las riberas y vegetación del Lago Chapo, el proceso dará lugar al aporte de elementos técnicos
+para mejorar la presentación de argumentos y comunicaciones tanto al SEIA como a las comunidades
+(requerimientos 3 y 4 del Laudo).
+COLBÚN planteó inicialmente una serie de estudios enmarcados en tres Macro-Estudios o momentos que
+siguen una secuencia lógica (1. Recopilación de información 2. Análisis 3. Planteamiento de soluciones
+encaminadas al PDRA).
+Cada Macro-Estudio o momento en el desarrollo de estudios técnicos tiene un objetivo, lo cual se detalla a
+continuación:
+Objetivos Macro-Estudio 1 (Línea Base, Levantamientos y caracterización):
+• Recopilación de información oficial histórica.
+• Recopilación de estudios (ambientales, técnicos, ingeniería).
+• Consecución de información (registros, fotos aéreas e imágenes satelitales).
+• Levantamiento de información (topografía, batimetrías, especies, etc).
+• Unificación de información base.
+• Procurar información de base comparativa en otras cuencas (con recorridos enfocados en caso de ser
+aplicable).
+• El objetivo principal es poder tener una base de información suficiente para poder adelantar estudios técnicos
+avanzados e integrados.
+• Caracterización geológica, geotécnica y geomorfológica de la cuenca del Lago Chapo.
+• Caracterización de multivariables temporales y su respuesta a la variabilidad operacional de cota del lago
+Chapo.
+Objetivo Macro-Estudio 2 (Análisis técnicos integrados para la cota de estabilidad)
+• Análisis detallado de cada especialidad.
+• Análisis multitemporal de cada variable.
+Rev. B 24-04-2026 Página 41 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+• Análisis multitemporal integrado.
+• Entendimiento de funcionamiento y los mecanismos de soporte de los ecosistemas y sus servicios (en el marco
+del objetivo 2 del PDRA).
+• En la medida de lo posible poder determinar el límite entre daños directamente atribuibles a niveles bajos del
+lago y daños o transformaciones generadas por los procesos y ciclos naturales (incluidos eventos de
+precipitaciones, caudales elevados y avenidas).
+• El objetivo principal es alcanzar un entendimiento detallado de los fenómenos que generan o generaron daños
+en riberas, cauces y vegetación para poder plantear soluciones basadas en la naturaleza y entender las
+limitaciones o límites funcionales de las medidas.
+Objetivo Macro-Estudio 3 (Plan de Restauración, Bioingeniería y Funcionalidad Ecosistémica)
+• Diseño de medidas estructurales para control de daños en riberas y vegetación.
+• Diseño de medidas y actividades encaminadas a propiciar la recuperación natural de áreas y elementos del
+ecosistema afectados.
+• Determinación de condiciones operativas (nivel) para prevenir daños atribuibles a la operación de la Central.
+• Diseño de un plan de seguimiento y monitoreo para corroborar el control de daños, la recuperación de
+ecosistemas y sus funciones.
+• El objetivo principal es el diseño de medidas a nivel de ingeniería conceptual y básica para poder determinar
+costos y plantear un PDRA para revisión, aprobación o consenso interno o con entidades.
+En adición a lo anterior se considera pertinente que el análisis multitemporal tenga en cuenta hitos relevantes para el
+lago:
+1. Entrada en construcción y operación (1991)
+2. Etapa de operación en niveles bajos (hasta 2020)
+3. Etapa de operación en niveles intermedio (hasta 2026)
+El análisis comparativo de las condiciones de riberas, cauces y vegetación pretende dejar en evidencia el
+comportamiento de los elementos anteriores frente a diferentes condiciones. En cada periodo se debe tener en cuenta el
+comportamiento de variables ambientales como la hidrología y fenómenos naturales que posiblemente generaron
+transformaciones durante los periodos de análisis (actividad del Volcán Calbuco).
+El análisis multitemporal pretende dar las bases para la evaluación de un escenario prospectivo (futuro) con las medidas
+del PDRA implementadas.
+En conclusión es recomendable adelantar una batería de estudios especializados enfocados en el entendimientos de los
+fenómenos naturales y antrópicos asociados a la variación de niveles del Lago Chapo para establecer una propuesta
+robusta de control de daños y recuperación de las funciones de los ecosistemas y los elementos afectados y cumplir con
+los objetivos del Objetivo 2 del PDRA. Estos estudios podrán ser la base para construir la estrategia argumentativa frente
+a entidades y comunidades, diferenciar daños atribuibles a la operación de la Central de daños generados por ciclos y
+fenómenos naturales y además defender a COLBÚN ante futuras acciones legales.
+Para cada Macro-Estudio o momento se plantea el desarrollo de los siguientes estudios técnicos y productos:
+Rev. B 24-04-2026 Página 42 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Macro-Estudio 1 – Línea Base, Levantamientos y caracterización:
+● Estudio hidrológico del Lago Chapo y análisis de crecidas para los afluentes principales (insumo
+Colbún S.A.).
+Este estudio deberá contener como mínimo lo siguiente:
+1. Series de precipitación diaria desde 1991 hasta 2025 para toda la cuenca del lago, incluyendo
+evapotranspiración.
+2. Series de caudales diarios desde 1991 hasta 2025 en los puntos de descarga de los afluentes principales al
+lago, incluyendo la sensibilidad al cambio climático.
+3. Estimación de caudales máximos e hidrogramas respectivos para diferentes periodos de retorno (2, 5, 10,
+25, 50 y 100 años), incluyendo la sensibilidad al cambio climático.
+En todo caso, este deberá ser un estudio que permita determinar los caudales mensuales de los principales
+afluentes, y los caudales extremos con períodos de retorno de 2, 5, 10, 25, 50 y 100 años, sugiriendo adoptar
+un periodo de retorno 1:100 para el diseño de medidas del PDRDA y consideraciones de análisis con Cambio
+Climático según estándares vigentes.
+● Caracterización geológica, geotécnica y geomorfológica de la cuenca del Lago Chapo. Consolidar
+antecedentes incluyendo estudios de régimen sedimentológico o estudios de morfología del cauce y el
+fenómeno de volcanismo asociado al Volcán Calbuco y sus efectos. Con el fin de recopilar la información de
+campo se realizará una visita de 8 días por parte de los especialistas de geotecnia y geología, incluyendo los
+días de viaje de ida y regreso. Los objetivos generales de la visita por especialidad y temas son:
+○ Revisión de planchas geológicas de la zona de estudio
+○ Revisión documental de la información relacionada con los efectos del vulcanismo del Volcán
+Calbuco.
+○ Corroboración en campo de evidencias actuales en riberas y afluentes del Lago Chapo
+○ Recopilación de información en lagos o sitios de referencia cercanos a Lago Chapo
+○ Recopilación de campo para identificar condiciones específicas de cada temática
+Se anota que las visitas técnicas tendrán un plan de trabajo documentado antes de la salida especificando
+objetivos específicos, sitios a visitar, información a recopilar, levantar u observar, interacciones necesarias con
+terceros, entre otros temas.
+● Caracterización de multivariables temporales y su respuesta a la variabilidad operacional de cota del
+lago Chapo. A partir de la visita a terreno efectuada en el mes de marzo se pudo apreciar que el
+entendimiento de la dinámica de la vegetación ribereña frente a cambios en los niveles del lago y frente a
+fenómenos naturales (crecidas e inundaciones) es importante para entender el comportamiento de las riberas.
+Se considera que junto con los análisis hidrológicos, hidráulicos y geotécnicos se podrán obtener conclusiones
+importantes sobre el efecto directo de la variación de niveles sobre las riberas y cauces, es decir entender el
+Rev. B 24-04-2026 Página 43 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+comportamiento de la franja de vegetación asociada estrictamente a las riberas es de importancia para el
+entendimiento del problema.. Por lo anterior se considera necesario realizar una visita de campo para levantar
+información referente a la vegetación ribereña.
+Este estudio se limitará al análisis de la vegetación ribereña directamente afectada y no incluirá la
+caracterización de coberturas vegetales extensa que si bien están contiguas a la riberas de lago y cauces
+superan la franja ribereña (extensiones mayores a la franja de vegetación asociada a la ribera exclusivamente).
+Lo anterior es importante entendiendo que el análisis de servicios ecosistémicos de coberturas vegetales tiene
+un alcance más amplio que el de la caracterización de tan solo la franja de vegetación asociada a la ribera.
+Basado en el comentario anterior se propone el desarrollo de un estudio de caracterización y levantamiento de
+información de la vegetación asociada a la franja de las ribera del lago y cauces. Esta caracterización incluirá
+una franja paralela al cauce entre el cauce principal y la llanura de inundación. La caracterización comprenderá
+el levantamiento de información relacionado con tipo de individuos y especies, susceptibilidad a inundación,
+relación con cotas de elevación, relación con áreas de inundación o que han demostrado haber sido
+influenciadas por variaciones en los niveles del lago o crecientes de los cauces afluentes, entre otros aspectos.
+Se realizará una visita de aproximadamente 5 días (incluidos días de viaje de ida y regreso y la movilización y
+desmovilización a las áreas de estudio en los principales afluentes del Lago Chapo). Los datos obtenidos y las
+observaciones serán utilizadas como base para análisis posteriores (análisis multitemporales o análisis del
+entendimiento del problema).
+Macro-Estudio 2 – Análisis técnicos integrados para la cota de estabilidad
+● Estudio del Sistema Hidráulico de Cuencas principales. Elaborar estudios hidráulicos y caracterización
+morfológica fluvial de los principales cauces afluentes, en el marco del entendimiento de la situación, con un
+análisis comparativo de situaciones por periodos, considerando el periodo previo a la operación de la Central
+en 1991, periodo entre 1991 y 2002 operado por ENDESA, periodo entre 2002 y 2021 operado por Colbún
+S.A., periodo 2021 a la fecha operado por Colbún S.A. con Convenio de cota mínima 230 msnm, y finalmente,
+el periodo post aplicación de medidas y condiciones operativas modificadas. Dicho análisis considerará por lo
+menos las cuencas Río Negro, Río Pitote, Río Cululí, Río León, y Río Playa Blanca, pero se evaluará con
+Colbún S.A. la necesidad de incluir otras cuencas.
+Con el análisis comparativo anterior, se desarrollará una Modelación numérica (1D/2D) con cruce de imágenes
+satelitales para evaluar, con sustento técnico y análisis multivariable, el efecto relativo de la operación del
+embalse frente a otros factores naturales o antrópicos en la evolución morfológica y ecosistémica del sistema y
+establecer la cota mínima de estabilidad. La decisión de usar un modelo 1D o 2D dependerá del detalle de la
+información batimétrica recibida y de las características del tramo de estudio. La modelación hidráulica
+presentará simulaciones de flujo normal y de crecientes extraordinarias para diferentes escenarios de nivel en
+el lago y así poder establecer el efecto sobre las variables morfológicas del tramo de interés, identificar el
+comportamiento a largo plazo y evaluar cuál es el rango de niveles de mayor conveniencia sobre la estabilidad.
+La capacidad de transporte de sedimentos es una variable vital en la determinación del efecto del nivel del lago
+y por esta razón se usarán al menos dos fórmulas empíricas que se ajusten a la características de cada
+afluente principal; en el tramo final de cada afluente se hará el balance de sedimentos para determinar el
+efecto en las variables morfológicas dependientes y la tendencia generada en el comportamiento del cauce.
+Cada escenario de nivel permitirá determinar la extensión de la perturbación o desbalance que genera hacia
+Rev. B 24-04-2026 Página 44 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+aguas arriba, en combinación con el caudal del río y el aporte de sedimentos de fondo desde la parte superior
+de la cuenca. La tendencia generada será evaluada a través del balance de Lane (1955) modificado por
+Klassen que permite cuantificar los cambios en las variables morfológicas, este ejercicio es vital para poder
+evaluar el efecto del nivel y el rango de menor o mínimo impacto. Además, este estudio dará respaldo para la
+definición de medidas y acciones del plan de restauración de bioingeniería y funcionalidad ecosistémica
+aplicables a cada cuenca.
+● Análisis de Estabilidad Geotécnica de Riberas del embalse y principales cauces afluentes. Durante el
+reconocimiento de campo se llevará a cabo la observación de las condiciones actuales de estabilidad de las
+riberas del embalse en las cuales se ha identificado principalmente la interacción del lago con los afloramientos
+rocosos, en los cuales se hará un levantamiento de sus rasgos estructurales y de las condiciones de alteración
+de las discontinuidades. En los sitios donde se identifica interacción con los depósitos de suelo conformados
+por depósitos coluviales o materiales de origen glacio fluvial o volcánico, se estimarán sus espesores y
+características texturales con el propósito de obtener la información necesaria para adelantar los análisis de
+estabilidad mediante métodos de equilibrio límite aplicables a la mecánica de rocas o de suelos de acuerdo con
+las características de los materiales y demostrar la estabilidad suficiente del perímetro del embalse en las
+zonas sin influencia de los afluentes.
+En las áreas de los afluentes principales se analizarán los procesos denudativos inducidos por la interacción
+entre la descarga del cuerpo de agua y los niveles del lago. En estos sectores se identifican depósitos de
+suelo, caracterizados por espesores significativos y un confinamiento lateral definido por los afloramientos
+rocosos. En estas áreas se hará una evaluación de la morfología de estos sectores, la extensión lateral de los
+materiales susceptibles de ser transportados por el cuerpo de agua, sus características texturales y
+condiciones de estabilidad. Por tratarse de una zona donde los procesos se desarrollan en suelo y cuyo factor
+detonante es la verticalización producto del proceso de socavación lateral, se hará una evaluación de la
+geometría de los taludes estables para su posterior implementación en las medidas de remediación que se
+planteen para estas zona junto con la implementación de las obras de bioingeniería.
+A partir de estas evaluaciones de estabilidad se podrán definir una clasificación de niveles de susceptibilidad a
+lo largo del perímetro del lago con el objetivo de priorizar la ejecución de las intervenciones.
+● Estudio de análisis de multivariables temporales en la dinámica de afluentes y lago Chapo . Este estudio
+se realizará a partir de la información recopilada en campo, los resultados de los estudios incluidos en Macro
+Estudio 1 y específicamente los resultados de caracterización de vegetación ribereña en Chapo y en lago de
+referencia, las fotos aéreas o satelitales actuales y anteriores. Además considerará las condiciones
+pre-operativas y operativas, los fenómenos naturales registrados y las variaciones de nivel a causa de la
+operación de la Central. Se utilizarán herramientas de Sistemas de Información Geográfica, para la
+superposición de capas temáticas y para obtener áreas de zonas homogéneas, franjas de susceptibilidad,
+espacializar funciones ecosistémicas, evidenciar cambios a través del tiempo, entre otros aspectos. Este
+informe contendrá el análisis, registros del proceso de análisis, cartografía temática y GeodataBase. Cabe
+anotar que si bien el análisis de este informe está enmarcado en las coberturas vegetales el análisis integrará
+aspectos de otras especialidades (hidrología, hidráulica, geología y geotecnia), entendiendo que la explicación
+de fondo a los cambios en las coberturas vegetales son objeto de fenómenos directamente representados por
+esas disciplinas.
+Rev. B 24-04-2026 Página 45 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+● Estudio de Análisis de servicios ecosistémicos y valor ambiental para corroborar funcionalidad del
+ecosistema y sus elementos - riberas, vegetación y paisaje. El estudio deberá ser completo con registros,
+análisis, mapas temáticos, información espacial, análisis de coberturas, fuentes de información, entre otros
+aspectos. El objeto de este análisis debe ser identificar y espacializar, y en lo posible cuantificar, las funciones
+de los ecosistemas ribereños y los servicios que las mismas proveen, no obstante, es importante que el estudio
+considere que las riberas afectadas tienen estrecha relación con los cauces de los afluentes, más allá de las
+secciones afectadas, con el lago como vaso de almacenamiento de agua y dinámicas antrópicas y naturales,
+entre otros. Bajo esa consideración, el estudio debe analizar las funciones ecosistémicas y beneficios a la
+sociedad de las riberas, los cauces y el lago Chapo (estudio para corroborar la funcionalidad de los
+ecosistemas y no para la evaluación ambiental).
+Además, debe incorporar al análisis la referencia y análisis a ciclos naturales (hidrológicos, hidráulicos,
+geológicos y geotécnicos) que soportan las funciones para analizar las causas de los cambios en las funciones
+de los ecosistemas ribereños y poder determinar en la medida de lo posible si los cambios a los elementos de
+ecosistemas afectan o han afectado sus funciones a lo largo del tiempo. El análisis a través del tiempo del
+cambio en ecosistemas y/o algunos de sus elementos, caso específico la vegetación ribereña, tiene como
+objetivo paralelo identificar si los cambios atribuibles a la operación de la Central han tenido un efecto
+significativo en la función de los ecosistemas. Lo anterior es primordial para poder construir un sustento
+científico, integrar evidencias, discriminar factores de control, y formular medidas técnica y ambientalmente
+defendibles..
+Finalmente, se anota que el estudio debe evaluar en la integralidad los servicios ecosistémicos ofrecidos por
+las riberas, cauces y lago en relación con servicios de soporte, regulación, aprovisionamiento y culturales. Con
+ellos se pretende abarcar funciones tales como control a la erosión, atenuación de crecientes y fenómenos
+naturales hidrológicos, suministro de agua para usos, suministro de agua para generación de energía,
+estabilidad y ciclos de ecosistemas acuáticos y terrestres, prácticas y usos antrópicos, usos de transporte y
+movilidad, prácticas culturales, uso de atributos del paisaje. Dentro de los análisis se debe contemplar, sin
+estar limitados, lo siguiente:
+Funciones ecosistémicas (soporte, regulación, cultural, aprovisionamiento):
+1. Relación con Riberas (lago y cauces)
+2. Relación con áreas de inundación y crecidas
+3. Especies y características
+4. Riberas en contexto regional
+5. Efecto cambio climático (fenómenos naturales)
+6. Análisis frente a ecosistemas de referencia
+Estado funcional a través del tiempo (pre operativo, operación niveles bajos, operación niveles medios,
+escenario prospectivo deseado - futuro)
+1. Línea de tiempo, análisis multitemporal, de coberturas ribereñas
+2. Análisis de área de cobertura, parches y extensión
+3. Susceptibilidad de ecosistema a fluctuaciones de nivel
+4. Análisis de cotas
+Rev. B 24-04-2026 Página 46 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+● Análisis integrado enfocado al estudio de cota mínima de estabilidad. Este informe recopilará y analizará
+de forma integrada todos los informes generados en el Macro Estudio 1 y Macro Estudio 2. Incluirá además de
+lo indicado a continuación el análisis integrado multitemporal incorporando fenómenos naturales
+documentados, fluctuaciones de nivel a causa de hidrología u operación de la Central, entre otros aspectos
+generales que superan el ámbito de las diferentes disciplinas individualizadas.
+➢ Entendimiento del problema: Se incluirá el análisis integrado de todas las disciplinas y referente al
+entendimiento de los fenómenos, problemas y daños evidenciados en las riberas y cauces. La interacción
+entre los fenómenos naturales y los fenómenos cuya causa es antrópica son responsables de los daños
+en las riberas. El análisis integrado pretende establecer un límite o zona aproximada donde se evidencia,
+específicamente en los cauces objeto de estudio, que las modificaciones en cauces y riberas son
+atribuibles a fenómenos naturales sin que haya influencia de la variación antrópica de los niveles del
+lago. El entendimiento del problema, como su nombre lo indica, permitirá comprender e identificar de
+forma objetiva, las causas de los efectos de daños evidenciados, sean éstos de origen natural, antrópico
+o mixto.
+➢ Análisis de casos de fenómenos naturales (dinámicas fluviales) no asociados con operación de
+Centrales Hidroeléctricas. Incluirá el análisis de casos de fenómenos naturales de daños similares a los
+observados en el Lago Chapo, por ejemplo, Lago Todos Los Santos, con el propósito de demostrar la
+existencia de dinámicas fluviales naturales que generan erosión y daño sin intervención antrópica, es
+decir independiente de la condición de embalse y regulación de su nivel. Dicho análisis deberá
+desarrollarse con una línea editorial sencilla que permita exponer a la Comunidad.
+Se realizará el análisis y zonificación de riesgo enmarcado en áreas de amenaza por movimiento de
+cauces o inundación determinando zonas de mayor a menor estabilidad.
+➢ Estudio de Cota mínima de estabilidad: Se elaborará un análisis que resulte en la determinación de la
+cota mínima, o rango de cotas, de la operación del embalse, de forma tal que controle el avance de
+daños sobre las riberas y no se generen nuevos daños ambientales atribuibles a la variación de niveles
+operativos, y estabilice la en la medida de lo posible límites o franjas de erosión con las medidas y
+acciones a desarrollar en el Macro Estudio posterior. Cabe señalar que Colbún S.A. previamente había
+establecido la factibilidad de la cota 230,0 msnm como cota mínima y comprometido su implementación a
+partir de enero 2021 con la Junta de Vecinos Lago Chapo y el Coordinador Eléctrico Nacional (CEN).
+➢ Planteamiento inicial de soluciones y alternativas y evaluación escenario prospectivo (evaluación
+conceptual de escenario futuro con soluciones implementadas). Se incorporará al análisis integrado
+y final la propuesta inicial de soluciones y alternativas de soluciones (sin que implique avances en
+ingeniería) y la evaluación conceptual cualitativa de los efectos y beneficios de estas soluciones en
+control de la erosión y además en la contribución a la recuperación de las funciones de los ecosistemas
+ribereños. Este análisis dará lugar al planteamiento de un plan de monitoreo y seguimiento para
+corroborar y evidenciar la eficiencia y la eficacia de las acciones implementadas (a futuro) y poder
+demostrar el cumplimiento del mandato del Tribunal frente al control del daño y la recuperación de
+ecosistemas. A su vez se determinarán recomendaciones frente a estudios futuros aplicables para
+profundizar en aspectos relevantes.
+Rev. B 24-04-2026 Página 47 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Dentro de la información de referencia a analizar en esta etapa se incluyen los mapas de riesgo
+emitidos por el SERNAGEOMIN y los documentos publicados respecto a la influencia de la actividad
+del Volcán Calbuco.
+Macro-Estudio 3 – Plan de Restauración, Bioingeniería y Funcionalidad Ecosistémica
+A continuación se describe el enfoque de las dos etapas de ingeniería que se desarrollarán como parte de este Macro
+Estudio:
+● Desarrollo de Ingeniería Conceptual. Esta primera etapa corresponde al análisis de las características de los
+materiales afectados por los procesos denudativos, el tipo de proceso y la selección del tipo de solución de
+bioingeniería a implementar para el control de los procesos erosivos y la recuperación morfológica de los
+cauces. En este proceso de selección se tendrán en cuenta las condiciones de acceso a cada zona, la
+magnitud de las solicitaciones impuestas por la dinámica de los afluentes sobre los elementos de estabilización
+y los materiales aprovechables que se tengan dentro de la zona de influencia del proyecto con el propósito de
+maximizar el aprovechamiento de los recursos disponibles. En la selección de las intervenciones,
+particularmente aquellas relacionadas con las actividades de reforestación, se aprovechará el conocimiento
+recopilado en el componente ambiental para seleccionar las especies que presenten las condiciones de
+crecimiento y sistema radicular que represente las mayores ventajas.
+Se plantearán los esquemas de solución para los cinco afluentes principales, con una estimación de sus
+cantidades de obra correspondientes, las cuales tendrán una confiabilidad del orden del 70%. Adicionalmente,
+se desarrollará el formato de fichas que ha dispuesto el fallo del 3TA, para las desembocaduras de Río Cululí y
+Río León, Río Negro, Río Pitote y Río Playa Blanca.
+A partir de la evaluación conceptual cualitativa de los efectos y beneficios de estas soluciones en el control de
+la erosión y su contribución a la recuperación de las funciones de los ecosistemas ribereños, dará lugar al
+planteamiento desde el punto de vista ambiental de un plan de monitoreo y seguimiento para corroborar y
+evidenciar la eficiencia y la eficacia de las acciones implementadas a futuro y poder demostrar el cumplimiento
+del mandato del Tribunal frente al control del daño y la recuperación de ecosistemas. A su vez se determinarán
+recomendaciones frente a estudios futuros aplicables para profundizar en aspectos relevantes.
+● Desarrollo de Ingeniería Básica. Una vez aprobado el enfoque de las obras conceptuales por parte de
+Colbún S.A., se plantearán las prioridades para el desarrollo de la etapa de ingeniería básica, abordando
+aquellas zonas que Colbún S.A. considere más estratégicas desde el punto de vista logístico, de visibilidad
+ante los entes de control u otro criterio que considere.
+Se platearán los diseños de ingeniería básica para las desembocaduras de los afluentes Río Negro, Río Pitote,
+Río Cululí, Río León y Río Playa Blanca, en los cuales se tomarán parámetros característicos de los materiales
+y se precisará el dimensionamiento de las obras de reconformación, reforzamiento y protección de las riberas.
+A partir de los resultados del diseño, se presentarán los informes, planos, especificaciones y cantidades de
+obra, recursos de mano de obra y maquinaria, programa de obras.
+Finalmente, se complementará el contenido de las fichas dispuestas en el fallo del 3TA con el resultado de esta
+etapa del diseño.
+Rev. B 24-04-2026 Página 48 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+Los resultados de los análisis integrados contribuirán a argumentos técnicos para poder afrontar comunicaciones con
+entidades y comunidad.
+5.1 Corto Plazo – Acciones Inmediatas
+• Mantener la cota mínima de operación en 231 m.s.n.m. y reforzar el monitoreo telemétrico continuo del nivel
+del lago con frecuencia horaria, registrando además la velocidad de descenso (m/día). Se entiende que esta
+cota está determinada por los acuerdos con la comunidad, factibilidad técnica de la operación de la Central,
+entre otros aspectos
+• Priorizar los levantamientos topográficos de alta resolución (LiDAR o drone+SfM) en los tres sectores críticos
+del Río Negro y en los frentes de erosión más activos de la ribera, como base geométrica para el
+modelamiento numérico. El levantamiento topográfico podría
+• Priorizar consecución de información hidrológica, mapas, cartografía, fotografías aéreas.
+• Establecer un sistema de información y registro de lluvias y caudales en los afluentes con el fin de documentar
+condiciones naturales en relación con cambios en riberas, orillas, vegetación y topografía (entre otros).
+5.2 Mediano Plazo – Estudios Técnicos Fase 2
+• Desarrollar el modelo hidrológico-hidráulico integrado de la cuenca con modelación 1D/2D de los cauces
+afluentes, calibrado con datos de campo (aforos, batimetría, granulometría del lecho), para determinar la
+potencia específica del flujo en función del nivel del lago y definir el umbral de estabilidad.
+• Implementar el análisis multitemporal de imágenes satelitales de alta resolución (Sentinel-2, Planet,
+DigitalGlobe) para cuantificar las tasas de retroceso de las márgenes en los últimos 30 años y validar los
+modelos morfológicos y de deterioro o ganancia de vegetación ribereña.
+• Adelantar el estudio de servicios ecosistémicos integrado en paralelo con los estudios técnicos, para
+documentar el estado funcional de las riberas y la vegetación como insumo para el diseño de las medidas de
+restauración.
+• Desarrollar un análisis multitemporal integrado teniendo como hitos la entrada en operación de la Central,
+operación con niveles bajos antes de acuerdos con comunidad (cota 230 m.s.n.m), operación con niveles
+intermedios (post acuerdo con comunidad) y la actualidad.
+• Se considera recomendable contar con un sistema de pronóstico hidrológico que permita planear la operación
+del lago de forma sostenible.
+• Se debe sustentar técnicamente el rango anual de los niveles de operación del lago para minimizar los efectos
+sobre las riberas. Para ello se recomienda la modelación hidráulica en diferentes niveles del lago, para
+determinar el proceso de agradación/degradación en función de la distancia hacia aguas arriba; el modelo
+debe tomar en cuenta, tanto el caudal como el transporte de sedimentos y su balance espacial. El resultado de
+esta modelación permitirá determinar el rango de niveles que minimizan los impactos sobre el medio ambiente
+y la generación de la central, y a la vez la estructuras de bioingeniería que sean viables y efectivas.
+Rev. B 24-04-2026 Página 49 de 50
+Nombre Proyecto: 08959 - APOYO INGENIERÍA PDRA LAGO CHAPO CH CANUTILLAR - COLBUN SA
+DOCUMENTO No: 0895901 -IRF-LBJ-GRAL-0001.DOCS - INFORME TÉCNICO DE DIAGNÓSTICO LAGO CHAPO
+5.3 Largo Plazo – Intervención Física y Restauración
+• Diseñar las medidas de control erosivo y bioingeniería con un enfoque de especificidad espacial: evitar la
+estandarización masiva e implementar soluciones proporcionales a cada tramo del lago y de los afluentes,
+considerando las condiciones geotécnicas locales, la hidrología del sector y el estado de la vegetación.
+• En los sectores de mayor incisión del Río Negro se recomienda evaluar estructuras de control de nivel
+(umbrales de fondo o trincheras transversales de control de pendiente) combinadas con medidas de
+bioingeniería (cribas de madera, empalizadas vivas) para estabilizar el lecho y permitir la recolonización
+vegetal.
+• La revegetación de la Banda de Impactos deberá realizarse preferentemente con especies nativas del
+ecosistema de referencia valdiviano, siguiendo un diseño de sucesión ecológica que permita la estabilización
+de taludes mediante el sistema radicular.
+• La determinación de la cota mínima de estabilidad definitiva debe integrarse en el proceso de Consulta de
+Pertinencia ante el SEIA, con evidencia técnica robusta de modelación numérica y análisis de estabilidad bajo
+distintos escenarios operacionales y de cambio climático.
+• Desarrollar análisis en escenarios prospectivos para poder evaluar la eficiencia y eficacia de las medidas a
+implementar, así determinar objetivos y metas a alcanzar
+6. REFERENCIAS BIBLIOGRÁFICAS
+Charlton, R. (2008). Fundamentals of Fluvial Geomorphology. Routledge, London.
+Julien, P. (2018). River Mechanics. Cambridge, USA.
+Schumm, S (2005). River Variability and Complexity. Cambridge, USA.
+Thorne, C., Hey, R. and Newson, (1997). Applied Fluvial Geomorphology for River Engineering and Management.
+John Willey and Sons, England.
+Rev. B 24-04-2026 Página 50 de 50
